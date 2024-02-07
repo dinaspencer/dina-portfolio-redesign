@@ -22,8 +22,14 @@ export default function Cv () {
             <p>________________________</p>
             <p>________________________</p>
             </div>
+            
             </div>
             <div className="cv-wrapper">
+            <div className="cv-individual">
+            <p>pharmaboardroom</p>
+            <p>________________________</p>
+            <p>________________________</p>
+            </div>
             <div className="cv-individual">
             <p>lingo live</p>
             <p>________________________</p>
@@ -34,14 +40,24 @@ export default function Cv () {
             <p>________________________</p>
             <p>________________________</p>
             </div>
-            <div className="cv-individual">
-            <p>cahill contractors</p>
-            <p>________________________</p>
-            <p>________________________</p>
-            </div>
             </div>
         </div>
-
+        <h1>EDUCATION </h1>
+        <div className="cv-wide">
+            <div className="cv-wrapper-ed">
+            <div className="cv-individual">
+            <p>unc wilmington</p>
+            <p>________________________</p>
+            <p>________________________</p>
+            </div>
+            <div className="cv-individual">
+            <p>TEFL certificate</p>
+            <p>________________________</p>
+            <p>________________________</p>
+            </div>
+            </div>
+            </div>
+    </div>
             <div className="student-companies">
                 I've worked with students from these companies and more.
                 <div className="icons-student">
@@ -54,7 +70,7 @@ export default function Cv () {
                     <p>meta</p>
                 </div>
         
-        </div>
+        
         
     </div>
 </section>
