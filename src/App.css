@@ -7,17 +7,27 @@
   min-height: 100vh;
 }
 
+#header-name {
+  float: left;
+  padding-left: 48px;
+}
+
+
 .navbar {
-  padding: 36px;
+  padding: 26px;
   display: flex;
   flex-direction: row;
   justify-content: right;
- 
 }
 
 .navbar li {
   list-style-type: none; 
   padding: 36px;
+}
+
+#main {
+  font-size: 150%;
+  padding: 0px 56px 0px 56px;
 }
 
 .circles-main {
@@ -37,6 +47,25 @@
   text-align: center;
 }
 
+#services ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+
+#services li {
+  list-style-type: none;
+  font-size: 150%;
+  margin: 16px;
+  padding: 12px;
+  width: 180px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 12px;
+  align-items: center;
+}
+
 .profile-round {
   background-color: gray;
   width: 160px;
@@ -44,4 +73,68 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+}
+
+
+.mid-width {
+  width: 50%;
+  margin-left: 50%;
+  background-color: gray;
+  padding-top: 32px;
+}
+
+
+.mid-width-left {
+  width: 50%;
+  margin-right: 50%;
+  background-color: gray;
+  padding-top: 32px;
+}
+
+.img-placeholder {
+  background-color: pink;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  /* display: block; */
+  margin: 0 auto;
+  
+  
+}
+
+.cv-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .cv-individual {
+  width: 45%;
+  
+} */
+
+.student-companies {
+  background-color: pink;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+  .cv-wide {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    margin-left: -24px;
+    justify-content: center;   
+    
+  }
+  .cv-individual {
+   
+    padding: 24px;
+    
+    
+    
+  }
+  
 }

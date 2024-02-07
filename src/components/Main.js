@@ -4,14 +4,10 @@ export default function Main () {
         <>
         <section id="main">
             <div className="container">
-                <h1>Dina Spencer</h1>
-                <h3>communication coach</h3>
-                <div className="circles-main">
-                    <div className="bubble-round">About</div>
-                    <div className="bubble-round">Services</div>
-                    <div className="bubble-round">Work With Me</div>
-                    </div>
-                <h2>express yourself.</h2>
+            <h1>hi, I'm Dina.</h1>
+                <p>I help people and companies express themselves better.</p>
+                <p>With over 10 years of experience in language coaching, web design and writing, I can polish your speaking and your online presence.</p>
+                <div className="profile-round"></div>
                 
             </div>
         </section>

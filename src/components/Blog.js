@@ -1,11 +1,9 @@
-import NavBar from "./NavBar";
 
 export default function Blog () {
 
     return (
         <>
         <section id="blog">
-        <NavBar />
         <div className="container">
             <h2>read more about my experience in Spain.</h2>
             <div className="circles-main">

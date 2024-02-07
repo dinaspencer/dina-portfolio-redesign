@@ -1,15 +1,13 @@
-import NavBar from "./NavBar";
 
 export default function About () {
     
     return (
         <>
-        
         <section id="about">
-        <NavBar />
-            <div className="container">
-                <h1>hi, I'm Dina.</h1>
-                <p>blablabla</p>
+            <div className="container mid-width-left">
+                <h1>who am I?</h1>
+                <p>where: Zaragoza, Spain</p>
+                <p>from: Winston-Salem, North Carolina</p>
                 <div className="profile-round"></div>
             </div>
         </section>
