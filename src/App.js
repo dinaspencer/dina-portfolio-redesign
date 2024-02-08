@@ -15,14 +15,12 @@ function App() {
     <div className="App">
      <NavBar />
       <Main />
-      
       <Services />
-      <Cv />
       <Dev />
       <DevProject />
       <About />
       <Contact />
-
+      <Cv />
       <Blog />
       <Footer />
     </div>

@@ -50,7 +50,6 @@
 #services ul {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -67,6 +66,7 @@
   border-radius: 100%;
   
 }
+
 
 .profile-round {
   background-color: gray;
@@ -104,6 +104,10 @@
   
 }
 
+#cv {
+  padding: 0px 32px 0px 32px;
+}
+
 .cv-wrapper {
   display: flex;
   flex-direction: column;
@@ -112,7 +116,7 @@
 }
 
 /* .cv-individual {
-  width: 45%;
+  
   
 } */
 
@@ -129,7 +133,9 @@
 #dev-section ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  padding-left: 128px;
+  padding-top: 24px;
 }
 
 #dev-section li {
@@ -175,8 +181,13 @@
    
     padding: 24px;
     
-    
-    
+  }
+
+  .cv-wrapper-ed {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    align-items: center;
   }
   
 }
