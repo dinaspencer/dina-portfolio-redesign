@@ -5,6 +5,7 @@ export default function Cv () {
         <section id="cv">    
         <div className="container">
             <h1>my professional experience <span className="open-cv">+ </span> <span className="close-cv"> - </span></h1>
+       <div className="cv-show">
         <div className="cv-wide">
             <div className="cv-wrapper">
             <div className="cv-individual">
@@ -55,6 +56,7 @@ export default function Cv () {
             </div>
             </div>
             </div>
+        </div>
     </div>
            
 </section>

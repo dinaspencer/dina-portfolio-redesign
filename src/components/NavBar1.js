@@ -1,13 +1,29 @@
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
-
-export default function NavBar () {
+export default function NavBar1 () {
 
     return (
-        <>
-        <section id="navbar-sticky">
-            <h1 id="header-name">DINA SPENCER</h1>
-        <ul className="navbar">
+        <div>
+           
+        <div className="header"></div>
+   <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu"></input>
+   
+   <label for="openSidebarMenu" className="sidebarIconToggle">
+     <div className="spinner diagonal part-1"></div>
+     <div className="spinner horizontal"></div>
+     <div className="spinner diagonal part-2"></div>
+   </label>
+   <div id="sidebarMenu">
+     <ul className="sidebarMenuInner">
+            <li><Link
+                activeClass="active"
+                to="main"
+                spy={true}
+                smooth={true}
+                // offset={-70}
+                duration={500}
+                    >Dina Spencer</Link></li>
             <li><Link
                 activeClass="active"
                 to="services"
@@ -50,10 +66,9 @@ export default function NavBar () {
                     >Blog</Link></li>
             
         </ul>
-
-
-        
-        </section>
-        </>
-    )
+   </div>
+   
+   </div>
+         
+    ) 
 }

@@ -5,15 +5,22 @@ export default function Services () {
         <>
         <section id="services">
             <div className="container">
-        <h2>what do you need help with?</h2>
+        <h2>english coaching</h2>
         
-       
         <ul>
-            <li>english speaking</li>
-            <li>my web presence</li>
-            <li>article writing</li>
+            <li>speak with more fluency</li>
+            <li>develop leadership skills</li>
+            <li>feel confident in meetings</li>
+            <li>give outstanding presentations</li>
         </ul>
-        
+
+            <div className="english-buttons">
+            <button id="english-contact">Work with me</button>
+            <button id="newsletter">Want a free English newsletter?</button>
+           </div>
+           
+         
+           
         <div className="student-companies">
                 I've worked with students from these companies and more.
                 <div className="icons-student">
@@ -27,7 +34,8 @@ export default function Services () {
                 </div>
             </div>
         
-        </div>
+            </div>
+
         </section>
         </>
     )

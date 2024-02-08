@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar1 from './components/NavBar1';
 import Main from './components/Main';
 import About from './components/About';
 import Services from './components/Services';
@@ -10,10 +10,11 @@ import DevProject from './components/DevProject';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div className="App">
-     <NavBar />
+     <NavBar1 />
       <Main />
       <Services />
       <Dev />
