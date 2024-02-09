@@ -1,3 +1,5 @@
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar1 from './components/NavBar1';
 import Main from './components/Main';
