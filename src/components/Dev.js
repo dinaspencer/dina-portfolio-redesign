@@ -42,7 +42,7 @@ function OffCanvasExample({ name, description, skills, image, link, ...props }) 
     return (
       <>
        <section id="dev-section">
-             <div className="container">
+             <div className="container-main">
                  <h1>PROJECTS </h1>
                  <div className="dev-section-container">
                  

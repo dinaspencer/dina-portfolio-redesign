@@ -4,7 +4,7 @@ export default function Services () {
     return (
         <>
         <section id="services">
-            <div className="container">
+            <div className="container-main">
         <h2>english coaching</h2>
         
         <ul>

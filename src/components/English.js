@@ -3,7 +3,7 @@ export default function English () {
     return (
         <>
         <section id="english">
-            <div className="container">
+            <div className="container-main">
                 <div class="arrow-back">Back</div>
         <h2>I'm a native English speaker from the US with 10 years of experience.</h2>
         

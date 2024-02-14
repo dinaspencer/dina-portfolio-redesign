@@ -1,14 +1,13 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar1 from './components/NavBar1';
+import NavBar from './components/NavBar';
 import Main from './components/Main';
 import About from './components/About';
 import Services from './components/Services';
 import Cv from './components/Cv';
 import Blog from './components/Blog';
 import Dev from './components/Dev';
-import DevProject from './components/DevProject';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -16,11 +15,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-     <NavBar1 />
+     <NavBar />
       <Main />
       <Services />
       <Dev />
-      {/* <DevProject /> */}
       <About />
       <Contact />
       <Cv />

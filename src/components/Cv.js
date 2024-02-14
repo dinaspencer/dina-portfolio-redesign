@@ -3,7 +3,7 @@ export default function Cv () {
     return (
 
         <section id="cv">    
-        <div className="container">
+        <div className="container-main">
             <h1>my professional experience <span className="open-cv">+ </span> <span className="close-cv"> - </span></h1>
        <div className="cv-show">
         <div className="cv-wide">
