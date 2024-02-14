@@ -1,36 +1,62 @@
 import { useState } from 'react';
-import DevProject from './DevProject';
-import { data } from '../data';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import { projects } from '../data';
 
 
-export default function Dev () {
 
+function OffCanvasExample({ name, description, skills, image, link, ...props }) {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-  const projects = data.projects;
-
+  
     return (
-        <>
+      <>
+        <p onClick={handleShow} className="project-item">
+          {name}
+        </p>
 
-        <section id="dev-section">
-            <div className="container">
-                <h1>PROJECTS </h1>
-                <ul className="project-list">
+      
+        <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="dev-modal">
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title>{name}</Offcanvas.Title>
+            
+          </Offcanvas.Header>
+          <Offcanvas.Body className="dev-modal-body">
 
-                    {projects.map(project => {
-                        return <li key={project.id} className="project-item" onClick={handleShow}>
-                            <p>{project.title}</p>
-                        </li>
-                    })}
-                    
-                  
-                </ul>
-                <DevProject work={projects} handleClose={handleClose} show={show} />
-              
-            </div>
-        </section>
-        </>
-    )
-}
+            <img src={`${image}`} width="200" alt="project" className="dev-project-item dev-img"></img>
+            <p className="dev-project-item">{description}</p>
+            <p className="dev-project-item"><strong>Skills: {skills}</strong></p>
+           
+            <Button variant="primary" href={link} target="blank">See live project</Button>
+          </Offcanvas.Body>
+        </Offcanvas>
+      </>
+    );
+  }
+  
+  export default function Dev() {
+
+    
+    
+    return (
+      <>
+       <section id="dev-section">
+             <div className="container">
+                 <h1>PROJECTS </h1>
+                 <div className="dev-section-container">
+                 
+       
+
+      {projects.map((project) => (
+          <OffCanvasExample key={project.id}  name={project.title} description={project.description} skills={project.skills} image={project.thumbnail} link={project.link}   />
+        ))}
+        </div>
+         </div>
+    </section>
+      </>
+     
+    );
+
+  }
+  

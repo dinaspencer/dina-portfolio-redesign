@@ -42,7 +42,6 @@
 }
 
 
-
 #services ul {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +63,7 @@
 }
 
 .student-companies {
-  width: 100%!important;
+  width: 100%;
 }
 
 
@@ -125,31 +124,41 @@
 .student-companies {
   background-color: pink;
   padding: 24px;
-  margin-top: 24px;
+  margin-top: -88px;
 }
 
 #dev-section {
   padding-top: 32px;
 }
 
-#dev-section ul {
-  display: flex;
-  flex-direction: column;
+.dev-section-container {
+  /* display: flex;
+  flex-direction: column; */
   /* align-items: center; */
-  padding-left: 128px;
+  margin-left: 68px;
   padding-top: 24px;
 }
 
-#dev-section li {
+#dev-section p {
   width: 33%;
   font-size: 120%;
   list-style-type: none;
   line-height: 0.7;
-  padding-top: 16px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  margin-left: 32px;
   border-bottom: 3px solid black;
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.dev-project-item {
+  padding-top: 12px;
+}
+
+.dev-img {
+  width: 90%;
 }
 
 #blog h2 {
@@ -190,13 +199,23 @@
     margin-right: 0;
   }
 
+  .dev-section-container {
+    margin-left: 18px;
+    padding-top: 24px;
+  }
  
-  #dev-section li {
-    width: 68%;
+  #dev-section p {
+    width: 78%;
     font-size: 130%;
     padding-top: 22px;
+  }
+
+  .dev-modal {
+    width: 80%!important;
     
   }
+
+
 
   .blog-square {
     width: 60%;

@@ -20,7 +20,7 @@ function App() {
       <Main />
       <Services />
       <Dev />
-      <DevProject />
+      {/* <DevProject /> */}
       <About />
       <Contact />
       <Cv />

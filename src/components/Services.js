@@ -19,12 +19,14 @@ export default function Services () {
             <button id="newsletter">Want a free English newsletter?</button>
            </div>
            
-         
-           
-        <div className="student-companies">
+        
+        
+            </div>
+
+            <div className="student-companies">
                 I've worked with students from these companies and more.
                 <div className="icons-student">
-                    <p>abbvie</p>
+                    <img src="src/abbvie.png" alt="abbvie"/>
                     <p>abbott</p>
                     <p>astrazeneca</p>
                     <p>linkedin</p>
@@ -32,8 +34,6 @@ export default function Services () {
                     <p>outbrain</p>
                     <p>meta</p>
                 </div>
-            </div>
-        
             </div>
 
         </section>
