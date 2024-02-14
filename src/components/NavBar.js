@@ -7,13 +7,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
+    <Navbar expand="md" data-bs-theme="dark" className="bg-body-tertiary nav-main" sticky="top">
       <Container >
-        <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="#">DINA SPENCER</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  className="nav-toggle"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-items">
-            <Nav.Link><Link
+            <Nav.Link className="nav-item"><Link
                 activeClass="active"
                 to="services"
                 spy={true}
@@ -21,7 +21,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                     >Services</Link></Nav.Link>
-            <Nav.Link><Link
+            <Nav.Link className="nav-item"><Link
                 activeClass="active"
                 to="dev-section"
                 spy={true}
@@ -29,7 +29,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                     >Projects</Link></Nav.Link>
-           <Nav.Link><Link
+           <Nav.Link className="nav-item"><Link
                 activeClass="active"
                 to="about"
                 spy={true}
@@ -37,7 +37,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                     >About</Link></Nav.Link>
-            <Nav.Link><Link
+            <Nav.Link className="nav-item"><Link
                 activeClass="active"
                 to="contact"
                 spy={true}
@@ -45,7 +45,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                     >Contact</Link></Nav.Link>
-            <Nav.Link><Link
+            <Nav.Link className="nav-item"><Link
                 activeClass="active"
                 to="blog"
                 spy={true}
