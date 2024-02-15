@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { projects } from '../data';
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 
 
 
@@ -13,13 +15,13 @@ function OffCanvasExample({ name, description, skills, image, link, ...props }) 
     return (
       <>
         <p onClick={handleShow} className="project-item">
-          {name}
+          {name + " "}  <AiOutlineArrowRight />
         </p>
 
       
         <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="dev-modal">
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>{name}</Offcanvas.Title>
+            <Offcanvas.Title>{name} </Offcanvas.Title>
             
           </Offcanvas.Header>
           <Offcanvas.Body className="dev-modal-body">

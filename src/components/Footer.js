@@ -1,3 +1,11 @@
+import { SiLinkedin } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
+import { SiPinterest } from "react-icons/si";
+import { SiUnsplash } from "react-icons/si";
+
+
+
 export default function Footer () {
 
     return (
@@ -17,11 +25,11 @@ export default function Footer () {
         <div className="social-icons-container">
                 
                 <ul className="social-icons">
-                    <li>li</li>
-                    <li>in</li>
-                    <li>gi</li>
-                    <li>un</li>
-                    <li>pi</li>
+                    <li><SiLinkedin size={30} style={{opacity: 0.6}} /></li>
+                    <li><SiInstagram size={30} style={{opacity: 0.6}}/></li>
+                    <li><SiGithub size={30} style={{opacity: 0.6}}/></li>
+                    <li><SiUnsplash size={30} style={{opacity: 0.6}}/></li>
+                    <li><SiPinterest size={30} style={{opacity: 0.6}}/></li>
                     
                 </ul>
             </div>

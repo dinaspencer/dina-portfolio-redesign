@@ -32,11 +32,15 @@
   padding: 0px 72px 0px 72px;
 }
 
+#services h2 {
+  padding-bottom: 48px;
+}
 
 #services ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 22px;
 }
 
 #services li {
@@ -46,15 +50,42 @@
   font-size: 100%;
   margin: 16px;
   padding: 12px;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border: 3px solid black;
   border-radius: 100%;
   
 }
 
+.english-buttons {
+   padding-bottom: 32px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.service-btn {
+  padding: 12px;
+  width: 33%;
+  font-size: 116%;
+  }
+
 .student-companies {
   width: 100%;
+}
+
+.student-companies h4 {
+  padding-top: 24px;
+}
+
+.icons-student {
+  display: flex;
+  flex-direction: row;
+  padding: 64px;
+  justify-content: center;
+}
+
+.icons-student p {
+  padding: 0px 24px 0px 12px;
 }
 
 
@@ -220,8 +251,27 @@
   height: 220px;
   }
 
+  .english-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ .service-btn {
+  margin-top: 24px;
+  width: 64%;
+ }
+
   .student-companies {
     margin-top: 20px;
+  }
+
+  .icons-student {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px;
+    justify-content: center;
   }
 
   .blog-square {
