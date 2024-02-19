@@ -190,6 +190,25 @@
 
 }
 
+.image-half-page {
+ max-width: 50%;
+ overflow: hidden;
+ background-position: center;
+ background-color: aqua;
+ 
+}
+
+.background-map {
+  
+  z-index: initial;
+  
+}
+
+.profile-overlay {
+  margin-top: -380px;
+   z-index: 10;
+}
+
 #contact-form  {
   text-align: left;
   padding-top: 24px;
@@ -311,6 +330,10 @@
   #about {
     display: flex;
     flex-direction: column;
+  }
+
+  .image-half-page {
+    min-width: 100vw;
   }
 
   #contact-form  {
