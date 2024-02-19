@@ -99,19 +99,6 @@
 }
 
 
-.dev-modal {
-  width: 50%!important;
-  padding: 32px!important;
-}
-
-
-.mid-width-left {
-  width: 50%;
-  margin-right: 50%;
-  background-color: gray;
-  padding-top: 136px;
-}
-
 .img-placeholder {
   background-color: pink;
   width: 160px;
@@ -175,13 +162,60 @@
   cursor: pointer;
 }
 
+.dev-modal {
+  width: 66%!important;
+  padding: 48px!important;
+  background-color: burlywood;
+  text-align: center;
+}
+
 .dev-project-item {
   padding-top: 12px;
 }
 
 .dev-img {
-  width: 90%;
+  width: 40%;
 }
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+.mid-width-left {
+  width: 50%;
+  /* margin-right: 50%; */
+  background-color: gray;
+  padding: 136px 48px 24px 48px;
+
+}
+
+#contact-form  {
+  text-align: left;
+  padding-top: 24px;
+  display: block;
+  margin-left: 30%;
+  
+}
+
+#contact-form input, textarea {
+  width: 60%;
+  height: 40px;
+  border: 2px solid black;
+  /* border: none;
+  border-bottom: 2px solid black; */
+}
+
+#submit-btn {
+  background-color: blue;
+  border: none!important;
+  color: white;
+}
+
+#submit-btn:hover {
+  opacity: 0.5;
+}
+
 
 #blog h2 {
   padding: 28px 48px 28px 48px;
@@ -272,6 +306,20 @@
     flex-wrap: wrap;
     padding: 36px;
     justify-content: center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-form  {
+    margin-left: 20%;
+   
+  }
+
+  #contact-form input, textarea {
+    width: 80%;
   }
 
   .blog-square {

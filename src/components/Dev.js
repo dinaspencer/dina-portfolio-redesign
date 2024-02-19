@@ -7,6 +7,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 
 
+
 function OffCanvasExample({ name, description, skills, image, link, ...props }) {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -26,7 +27,7 @@ function OffCanvasExample({ name, description, skills, image, link, ...props }) 
           </Offcanvas.Header>
           <Offcanvas.Body className="dev-modal-body">
 
-            <img src={`${image}`} width="200" alt="project" className="dev-project-item dev-img"></img>
+            <img src={`${image}`}  alt="project" className="dev-project-item dev-img"></img>
             <p className="dev-project-item">{description}</p>
             <p className="dev-project-item"><strong>Skills: {skills}</strong></p>
            
