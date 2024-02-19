@@ -15,7 +15,7 @@ export default function About () {
                 <p>With a psychology degree and years of teaching experience under my belt, I coach and support business English learners to speak more fluently and feel more confident. I also create speaking games using the React framework to practice coding on a real-world project.</p>
                 <p>Hobbies: personal finance and budgeting, photography, singing in choirs, running, cycling, writing, reading, and learning to code.</p>  
             </div>
-            <div class="image-half-page">
+            <div className="image-half-page">
             <img src="/img/spainmap.png" alt="spain-map" className="background-map"/>
              <img src="/img/profile.jpg" alt="profile" className="profile-overlay" height="200" />
                 

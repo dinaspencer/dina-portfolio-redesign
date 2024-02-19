@@ -4,9 +4,17 @@ import { SiLinkedin } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
 import Button from 'react-bootstrap/Button';
-
+import { useState } from 'react';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import MailchimpFormContainer from "./MailChimpForm";
 
 export default function Services () {
+
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
 
     return (
         <>
@@ -24,10 +32,16 @@ export default function Services () {
 
             <div className="english-buttons">
             <Button id="english-contact" className="service-btn" >Work with me</Button>
-            <Button id="newsletter" className="service-btn">Want a free English newsletter?</Button>
+            <Button id="newsletter" className="service-btn" onClick={handleShow}>Want a free English newsletter?</Button>
            </div>
            
-        
+            <Offcanvas show={show} onHide={handleClose} placement="end" className="dev-modal">
+                <Offcanvas.Header closeButton>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    <MailchimpFormContainer />
+                </Offcanvas.Body>
+            </Offcanvas>
         
             </div>
 
