@@ -157,7 +157,7 @@
 .mc__field-container input {
   border-radius: 40px;
   border: 2px solid brown;
-  background-color: bisque;
+  background-color: #ffd4a7;
   padding: 12px 12px 12px 12px;
 }
 
@@ -226,7 +226,7 @@
 .dev-modal {
   width: 66%!important;
   padding: 48px!important;
-  background-color: burlywood;
+  background-color: #c48543;
   text-align: center;
 }
 
