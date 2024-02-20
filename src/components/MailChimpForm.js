@@ -92,6 +92,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         <input
           label="subscribe"
           type="submit"
+          className="subscribe-btn"
           values={[tag, email, firstName]}
         />
         </div>

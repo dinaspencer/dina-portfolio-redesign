@@ -5,7 +5,7 @@
 
 .container-main {
   min-height: 100vh;
-  padding-top: 136px;
+  padding-top: 114px;
 }
 
 #header-name {
@@ -126,9 +126,9 @@
   
 }
 
-.cv-show {
+/* .cv-show {
   display: none;
-}
+} */
 
 .student-companies {
   background-color: #9ee6c2;
@@ -152,6 +152,18 @@
 .mc__field-container {
   display: grid;
   grid-row-gap: 30px;
+}
+
+.mc__field-container input {
+  border-radius: 40px;
+  border: 2px solid brown;
+  background-color: bisque;
+  padding: 12px 12px 12px 12px;
+}
+
+.subscribe-btn {
+  background-color: brown!important;
+  color: white;
 }
 .mc__alert {
   text-align: center;
@@ -236,7 +248,7 @@
   /* margin-right: 50%; */
   background-color: #9ee6c2;
   color: #000;
-  padding: 136px 48px 24px 48px;
+  padding: 114px 48px 24px 48px;
 
 }
 
@@ -268,9 +280,17 @@
   
 }
 
-#contact-form input, textarea {
+#contact-form input {
   width: 60%;
-  height: 40px;
+  height: 48px;
+  border: 2px solid black;
+  /* border: none;
+  border-bottom: 2px solid black; */
+}
+
+#contact-form textarea {
+  width: 60%;
+  height: 80px;
   border: 2px solid black;
   /* border: none;
   border-bottom: 2px solid black; */
@@ -392,8 +412,13 @@
    
   }
 
-  #contact-form input, textarea {
+  #contact-form input {
     width: 80%;
+  }
+
+  #contact-form textarea {
+    width: 80%;
+    
   }
 
   .blog-square {
