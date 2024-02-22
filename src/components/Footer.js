@@ -3,22 +3,34 @@ import { SiGithub } from "react-icons/si";
 import { SiInstagram } from "react-icons/si";
 import { SiPinterest } from "react-icons/si";
 import { SiUnsplash } from "react-icons/si";
-
-
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import MailchimpFormContainer from "./MailChimpForm";
 
 export default function Footer () {
+
+const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 
     return (
         <>
         <section id="footer">
             <div className="footer-container">
+
+        <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton className="footer-modal"></Modal.Header>
+        <Modal.Body className="footer-modal modal-body">
+            <MailchimpFormContainer />
+        </Modal.Body>
+      </Modal>
        
-        
-        
             <div className="footer-links">
                 <p>©Dina Spencer 2024</p>
-            <p id="english-contact">Work with me</p>
-            <p id="newsletter">English newsletter signup</p>
+            <a href="#contact" id="english-contact"><p >Work with me</p></a>
+            <p id="newsletter" onClick={handleShow}>English newsletter signup</p>
            </div>
            
    

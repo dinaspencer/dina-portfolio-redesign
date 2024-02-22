@@ -12,7 +12,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 
     const emailChange = (event) => {
         setEmail(event.target.value);
-        setTag('3922258');
+        setTag(3922258);
     };
 
     const nameChange = (event) => {
@@ -37,6 +37,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         onValidated({
             EMAIL: email,
             MERGE1: firstName,
+            TAGS: tag,
         });
     }
 

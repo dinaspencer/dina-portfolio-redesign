@@ -31,7 +31,7 @@ function OffCanvasExample({ name, description, skills, image, link, ...props }) 
             <p className="dev-project-item">{description}</p>
             <p className="dev-project-item"><strong>Skills: {skills}</strong></p>
            
-            <Button variant="primary" href={link} target="blank">See live project</Button>
+            <Button className="dev-modal-btn" href={link} target="blank">See live project</Button>
           </Offcanvas.Body>
         </Offcanvas>
       </>

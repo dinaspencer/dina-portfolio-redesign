@@ -3,6 +3,10 @@
   
 }
 
+a::after {
+  text-decoration: none;
+}
+
 .container-main {
   min-height: 100vh;
   padding-top: 114px;
@@ -50,15 +54,31 @@
   font-size: 100%;
   margin: 16px;
   padding: 12px;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border: 3px solid black;
   border-radius: 100%;
-  
+  cursor: pointer;
+}
+
+#services li:hover {
+  opacity: 0.6;
+  background-color: blanchedalmond;
+}
+
+.services-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.arrow {
+  margin-top: -12px;
 }
 
 .english-buttons {
-   padding-bottom: 32px;
+   padding-bottom: 64px;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -67,6 +87,7 @@
   padding: 12px;
   width: 33%;
   font-size: 116%;
+  border-radius: 40px;
   }
 
 .student-companies {
@@ -112,7 +133,18 @@
 
 #cv {
   padding: 0px 32px 0px 32px;
+  margin-top: 48px;
 }
+
+#cv, .cv-accordion, .accordion-button {
+  background-color: #cfe2ff;
+}
+
+.accordion-button {
+  padding: 64px 24px 64px 24px;
+}
+
+
 
 .cv-wrapper {
   display: flex;
@@ -121,19 +153,10 @@
   flex-wrap: wrap;
 }
 
-.close-cv {
-  display: none;
-  
-}
-
-/* .cv-show {
-  display: none;
-} */
-
 .student-companies {
   background-color: #9ee6c2;
   padding: 24px;
-  margin-top: -88px;
+  margin-top: -48px;
 }
 .mc__form-container {
   width: 70%;
@@ -155,7 +178,7 @@
 }
 
 .mc__field-container input {
-  border-radius: 40px;
+  
   border: 2px solid brown;
   background-color: #ffd4a7;
   padding: 12px 12px 12px 12px;
@@ -164,7 +187,13 @@
 .subscribe-btn {
   background-color: brown!important;
   color: white;
+  border-radius: 40px;
 }
+
+.subscribe-btn:hover {
+  opacity: 0.6;
+}
+
 .mc__alert {
   text-align: center;
 }
@@ -238,6 +267,11 @@
   width: 40%;
 }
 
+.dev-modal-btn {
+  background-color: brown;
+  border: 2px solid brown;
+}
+
 #about {
   display: flex;
   flex-direction: row;
@@ -298,8 +332,9 @@
 
 #submit-btn {
   background-color: blue;
-  border: none!important;
+  border: 2px solid blue!important;
   color: white;
+  border-radius: 40px;
 }
 
 #submit-btn:hover {
@@ -321,12 +356,19 @@
 
 .blog-square {
   width: 28%;
-  height: 200px;
+  height: 280px;
   border: 2px solid black;
   border-radius: 12px;
   margin: 0px 12px 32px 6px;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.blog-square:hover {
+  opacity: 0.6;
 }
 
 .blog-img {
@@ -335,7 +377,37 @@
   background-color: gray;
   display: block;
   margin: 0 auto;
+  margin-bottom: 16px;
 }
+
+.blog-btn {
+  background-color: brown!important;
+  color: white;
+  border-radius: 40px;
+  padding: 12px 24px 12px 24px;
+  border: 1px solid brown;
+}
+
+.blog-btn:hover {
+  opacity: 0.6;
+  border: none;
+}
+#english-contact, #newsletter {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-modal {
+  background-color: #c48543;
+  border: none;
+}
+
+.modal-body {
+  border-bottom-left-radius: 12px; 
+  border-bottom-right-radius: 12px;
+  }
+
 
 @media only screen and (max-width: 750px) {
 
