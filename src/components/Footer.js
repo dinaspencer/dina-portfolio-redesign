@@ -29,7 +29,9 @@ const [show, setShow] = useState(false);
        
             <div className="footer-links">
                 <p>©Dina Spencer 2024</p>
-            <a href="#contact" id="english-contact"><p >Work with me</p></a>
+            
+               <p><a href="#contact" id="english-contact">Work with me</a></p> 
+                
             <p id="newsletter" onClick={handleShow}>English newsletter signup</p>
            </div>
            

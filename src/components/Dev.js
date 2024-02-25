@@ -22,7 +22,7 @@ function OffCanvasExample({ name, description, skills, image, link, ...props }) 
       
         <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="dev-modal">
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>{name} </Offcanvas.Title>
+            <Offcanvas.Title className="dev-project-name">{name} </Offcanvas.Title>
             
           </Offcanvas.Header>
           <Offcanvas.Body className="dev-modal-body">
