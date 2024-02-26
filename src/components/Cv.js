@@ -9,7 +9,7 @@ export default function Cv () {
            
         <Accordion flush className="cv-accordion">
       <Accordion.Item eventKey="0" className="cv-accordion">
-        <Accordion.Header className="cv-accordion"><h1>curious about my professional experience? </h1></Accordion.Header>
+        <Accordion.Header className="cv-accordion"><h2>curious about my professional experience? </h2></Accordion.Header>
         <Accordion.Body className="cv-accordion">
         <div className="cv-show">
         <div className="cv-wide">

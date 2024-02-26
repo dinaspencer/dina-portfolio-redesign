@@ -10,15 +10,15 @@ export const projects = [
           {
             "id": 2,
             "title": "Libertas Abogados",
-            "description": "Libertas Abogados is a law firm in Bilbao, Spain which was looking to attract new clients. First, I analyzed the existing site and found it was very wordy, without clear contact info, with out of date email addresses and not many graphics. I sketched out a few site ideas on paper, then took those ideas to Sketch & InVision to flesh them out. Then I hand-coded the final project.",
-            "skills": "HTML, CSS, JavaScript, PHP",
+            "description": "Libertas Abogados is a law firm in Bilbao, Spain which was looking to attract new clients. First, I analyzed the existing site and found it was very wordy, without clear contact info, with out of date email addresses. I sketched out my ideas on paper, then took those ideas to Sketch & InVision to create wireframes. Then I hand-coded the final project.",
+            "skills": "UX Design, HTML, CSS, JavaScript, PHP",
             "thumbnail": "img/libertas.png",
             "link": "https://libertasabogados.net",
           },
           {
             "id": 3,
             "title": "Matthew Serna Therapy",
-            "description": "Matthew Serna is a psychotherapist in the San Francisco Bay Area and was looking for a simple site to showcase his specialty areas and let clients easily schedule a consultation. Considering the target users, I chose colors that are muted, yet welcoming. The layout is a one-page resumé plus a scheduling and policy page. I chose to use WordPress for its strengths in SEO and smooth user experience, hand-tweaking some CSS elements.",
+            "description": "Matthew Serna is a psychotherapist in the San Francisco Bay Area and was looking for a simple site to showcase his specialty areas and let clients easily schedule a consultation. The layout is a one-page resumé plus a scheduling and policy page. I chose to use WordPress for its strengths in SEO and smooth user experience, customizing some CSS elements.",
             "skills": "WordPress, JavaScript, Calendly",
             "thumbnail": "img/serna.png",
             "link": "https://matthewsernatherapy.com",

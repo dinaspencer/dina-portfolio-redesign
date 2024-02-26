@@ -10,7 +10,7 @@ export default function NavBar() {
     <Navbar expand="md"  className="nav-main" sticky="top">
       {/* <div className="data-bs-theme=dark bg-body-tertiary"></div> */}
       <Container >
-        <Navbar.Brand href="#" id="brand-header">DINA SPENCER</Navbar.Brand>
+        <Navbar.Brand href="#" id="brand-header"><strong>DINA SPENCER</strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className="nav-toggle"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-items">
