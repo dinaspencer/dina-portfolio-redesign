@@ -14,46 +14,63 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className="nav-toggle"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-items">
-            <Nav.Link className="nav-item"><Link
-                activeClass="active"
+            {/* <Nav.Link className="nav-item"> */}
+              
+              <Link
+                // activeClass="active"
                 to="services"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
-                    >Services</Link></Nav.Link>
-            <Nav.Link className="nav-item"><Link
+                className="nav-item"
+                    >
+                      Services
+                      </Link>
+                      {/* </Nav.Link> */}
+            {/* <Nav.Link className="nav-item"> */}
+              <Link
                 activeClass="active"
                 to="dev-section"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
-                    >Projects</Link></Nav.Link>
-           <Nav.Link className="nav-item"><Link
+                className="nav-item"
+                    >Projects</Link>
+                    {/* </Nav.Link> */}
+           {/* <Nav.Link className="nav-item"> */}
+            <Link
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
-                    >About</Link></Nav.Link>
-            <Nav.Link className="nav-item"><Link
+                className="nav-item"
+                    >About</Link>
+                    {/* </Nav.Link> */}
+            {/* <Nav.Link className="nav-item"> */}
+              <Link
                 activeClass="active"
                 to="contact"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
-                    >Contact</Link></Nav.Link>
-            <Nav.Link className="nav-item"><Link
+                className="nav-item"
+                    >Contact</Link>
+                    {/* </Nav.Link> */}
+            {/* <Nav.Link className="nav-item"> */}
+              <Link
                 activeClass="active"
                 to="blog"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
-                    >Blog</Link></Nav.Link>
+                className="nav-item">Blog</Link>
+                    {/* </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

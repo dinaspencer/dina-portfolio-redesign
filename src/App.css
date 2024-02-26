@@ -47,6 +47,8 @@ button, input {
 
 .nav-item {
   padding: 0px 32px 0px 12px!important;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-toggle {
@@ -360,7 +362,7 @@ button, input {
  overflow: hidden;
  background-position: center;
  background-color: #7bd4e9;
- opacity: 0.6;
+ opacity: 0.8;
  
 }
 
