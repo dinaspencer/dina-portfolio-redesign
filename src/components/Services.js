@@ -21,7 +21,7 @@ export default function Services () {
         <>
         <section id="services">
             <div className="container-main">
-        <h2>english coaching for intermediate and advanced learners</h2>
+        <h3>english coaching for intermediate and advanced learners</h3>
         
         
         <ul>

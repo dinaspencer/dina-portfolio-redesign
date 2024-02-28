@@ -3,6 +3,9 @@
   
 }
 
+body {
+  margin: 0;
+}
 
 
 h1, h2, h3, h4, h5 {
@@ -33,7 +36,8 @@ button, input {
 
 .container-main {
   min-height: 100vh;
-  padding-top: 114px;
+  /* max-height: 100%; */
+  padding-top: 116px;
 }
 
 #header-name {
@@ -42,7 +46,7 @@ button, input {
 }
 
 .navbar-items {
-  padding: 24px 46px 24px 46px;
+  padding: 24px 32px 24px 46px;
   align-items: right!important;
   
 }
@@ -59,7 +63,7 @@ button, input {
 
 #main {
   font-size: 120%;
-  padding: 0px 126px 0px 126px;
+  padding: 0px 126px 22px 126px;
   background-color: #16063a;
   color: white;
 }
@@ -195,17 +199,23 @@ button, input {
 }
 
 .pdf-signup {
-  padding: 32px;
+  padding: 32px 48px 32px 48px;
+  justify-content: center;
+}
+
+.fluency-pdf {
+  width: 90%;
 }
 
 
 .profile-round {
   /* background-color: gray; */
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   border-radius: 100%;
   display: block;
   margin: 0 auto;
+  
 }
 
 
@@ -365,8 +375,12 @@ button, input {
   flex-direction: row;
 }
 
+.about-header {
+  padding-bottom: 32px;
+}
+
 #about p {
-  font-size: 16px;
+  font-size: 15px;
   
 
 }
@@ -376,8 +390,8 @@ button, input {
   /* margin-right: 50%; */
   /* background-color: #9ee6c2; */
   background-color: #cad169;
-  color: #16063a;  
-  padding: 114px 48px 24px 48px;
+  color: #16063a; 
+  padding: 116px 40px 24px 40px;
 
 }
 
@@ -386,17 +400,19 @@ button, input {
  overflow: hidden;
  background-position: center;
  background-color: #7bd4e9;
- opacity: 0.8;
+ opacity: 0.9;
  
 }
 
 .background-map {
   z-index: 22;
-  
+  max-width: 100%;
 }
 
+
+
 .profile-overlay {
-  margin-top: -380px;
+  margin-top: -220px;
    z-index: 10;
    border-radius: 100%;
   
@@ -542,7 +558,7 @@ button, input {
   }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
 
 
   .nav-main {
@@ -583,6 +599,10 @@ button, input {
   height: 220px;
   }
 
+  .services-circle p {
+    font-size: 1.2em;
+  }
+
   .english-buttons {
     display: flex;
     flex-direction: column;
@@ -605,6 +625,14 @@ button, input {
     padding: 36px;
     justify-content: center;
   }
+
+.pdf-signup {
+  padding: 24px;
+}
+
+.fluency-pdf {
+  width: 60%;
+}
 
   #about {
     display: flex;
@@ -631,7 +659,7 @@ button, input {
 
   .blog-square {
     width: 60%;
-    height: 250px;
+    height: 270px;
   }
 
   #blog h3 {
@@ -647,7 +675,7 @@ button, input {
   padding: 48px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 769px) {
 
   .pdf-container {
     display: flex;
@@ -676,4 +704,9 @@ button, input {
   
 }
 
+@media only screen and (max-width: 535px) {
+  #services ul {
+    margin-left: -32px;
+  }
+}
 

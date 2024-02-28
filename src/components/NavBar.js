@@ -29,7 +29,7 @@ export default function NavBar() {
                       </Link>
                       {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-            <Link
+            {/* <Link
                 // activeClass="active"
                 to="english"
                 spy={true}
@@ -39,7 +39,7 @@ export default function NavBar() {
                 className="nav-item"
                     >
                       Fluency
-                      </Link>
+                      </Link> */}
               <Link
                 activeClass="active"
                 to="dev-section"
