@@ -1,7 +1,6 @@
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiInstagram } from "react-icons/si";
-import { SiPinterest } from "react-icons/si";
 import { SiUnsplash } from "react-icons/si";
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
@@ -34,7 +33,7 @@ const [show, setShow] = useState(false);
                 <p>©Dina Spencer 2024</p>
             
                <p><a href="#contact" id="english-contact">Work with me</a></p> 
-                
+               <p><a href="#english" id="english-contact">Fluency guide</a></p> 
             <p id="newsletter" onClick={handleShow}>English newsletter signup</p>
 
             
@@ -44,11 +43,11 @@ const [show, setShow] = useState(false);
         <div className="social-icons-container">
                 
                 <ul className="social-icons">
-                    <li><SiLinkedin size={30} style={{opacity: 0.6}} /></li>
-                    <li><SiInstagram size={30} style={{opacity: 0.6}}/></li>
-                    <li><SiGithub size={30} style={{opacity: 0.6}}/></li>
-                    <li><SiUnsplash size={30} style={{opacity: 0.6}}/></li>
-                    <li><SiPinterest size={30} style={{opacity: 0.6}}/></li>
+                    <li><a href="https://www.linkedin.com/in/dinakspencer/" target="_blank" rel="noreferrer"><SiLinkedin size={30} style={{opacity: 0.6}} /></a></li>
+                    <li><a href="https://www.instagram.com/dina.spencer.photo/" target="_blank" rel="noreferrer"><SiInstagram size={30} style={{opacity: 0.6}}/></a></li>
+                    <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><SiGithub size={30} style={{opacity: 0.6}}/></a></li>
+                    <li><a href="https://unsplash.com/@dinaspencer" target="_blank" rel="noreferrer"><SiUnsplash size={30} style={{opacity: 0.6}}/></a></li>
+                    
                     
                 </ul>
             </div>

@@ -3,6 +3,8 @@
   
 }
 
+
+
 h1, h2, h3, h4, h5 {
   font-family: "Roboto Mono", monospace;
   color: #16063a;
@@ -40,13 +42,13 @@ button, input {
 }
 
 .navbar-items {
-  padding: 24px;
+  padding: 24px 46px 24px 46px;
   align-items: right!important;
   
 }
 
 .nav-item {
-  padding: 0px 32px 0px 12px!important;
+  padding: 0px 24px 0px 24px!important;
   cursor: pointer;
   text-decoration: none;
 }
@@ -93,19 +95,32 @@ button, input {
   height: 160px;
   border: 3px solid #16063a;
   border-radius: 100%;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-#services li:hover {
-  /* opacity: 0.6; */
+/* #services li:hover {
   background-color: #ffe6aa;
-}
+} */
 
 .services-circle {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 48px;
+}
+
+.services-circle a {
+  text-decoration: none;
+  color: #16063a;
+}
+
+.last-circle {
+  padding-top: 28px!important;
+  cursor: pointer;
+}
+
+.last-circle:hover {
+  background-color: #ffe6aa;
 }
 
 .arrow {
@@ -172,6 +187,15 @@ button, input {
 
 .icons-student p {
   padding: 0px 24px 0px 12px;
+}
+
+#english {
+  background-color: #aa8839;
+  padding: 32px 32px  32px 32px;
+}
+
+.pdf-signup {
+  padding: 32px;
 }
 
 
@@ -495,6 +519,10 @@ button, input {
   
 }
 
+#footer a {
+  color: #16063a;
+}
+
 #footer-signup  {
   width: 100%!important;
   
@@ -620,6 +648,11 @@ button, input {
 }
 
 @media only screen and (min-width: 800px) {
+
+  .pdf-container {
+    display: flex;
+    flex-direction: row;
+  }
   .cv-wide {
     display: flex;
     flex-direction: row;

@@ -4,15 +4,18 @@ export default function English () {
         <>
         <section id="english">
             <div className="container-main">
-                <div class="arrow-back">Back</div>
-        <h2>I'm a native English speaker from the US with 10 years of experience.</h2>
+                <div className="pdf-container">
+                        <div className="pdf-image">
+                        <img src="/img/pdfcover.png" alt="5 Fluency Tips" className="fluency-pdf" width="300"/>
+                        </div>
+                        <div className="pdf-signup">
+        <h4><strong>Do you want to speak English with better fluency?</strong></h4> 
+        <h4><strong>Download my free PDF guide!</strong></h4>
+        <iframe title="pdf-signup" width="440" height="505" src="https://0760bbe7.sibforms.com/serve/MUIFAEAGX5GJzBtXKj0i9KpfZTmY1vegkUpizxm-9AYLOrNRGWaCY7tpe4KbVHU8Vj7gBhgIyzFmf-K-2XPuINcRP3SRTI2clk_GVrpAy-77h1Ujmszmovsh23S2ewPqq1hRm-Dm3NTcbKIjXnNkRclOMkaNAVC8IOKRyyBRxKvsktY2szmwRROkeU87Y25iacqXyiVZ_QQ5XRAN"  scrolling="auto" allowFullScreen ></iframe>
+                        </div>
+                </div>
         
        
-        <ul>
-            <li>english speaking</li>
-            <li>my web presence</li>
-            <li>article writing</li>
-        </ul>
         
         
         </div>

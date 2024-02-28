@@ -1,6 +1,6 @@
 export default function ContactForm() {
     return (
-      <form name="contact" method="post" id="contact-form">
+      <form name="contact" method="POST" id="contact-form" action="/confirmation">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label> <br />
