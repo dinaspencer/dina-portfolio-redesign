@@ -63,7 +63,8 @@ button, input {
 
 #main {
   font-size: 120%;
-  padding: 0px 126px 22px 126px;
+  padding: 0px 126px 22px 126px!important;
+  /* padding-top: 48px!important; */
   background-color: #16063a;
   color: white;
 }
