@@ -271,7 +271,6 @@ button, input {
 }
 
 .dev-modal {
-  width: 66%;
   padding: 48px;
   background-color: #aa8839;
   text-align: center;
@@ -633,6 +632,11 @@ button, input {
     flex-direction: row;
     margin: 0 auto; 
     align-items: center;
+  }
+
+  .dev-modal {
+    width: 66%!important;
+  
   }
   
 }

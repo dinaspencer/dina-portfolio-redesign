@@ -16,9 +16,9 @@ export default function Blog () {
                         <img className="blog-img" src="/img/blog2.jpg" alt="waterfall"></img>
                         <p>Hidden Corners of Spain: Orbaneja del Castillo</p>
                     </a>
-                    <a className="blog-square" href="https://blog.dinaspencer.net/life-after-auxiliaring/" target="_blank" rel="noreferrer">
+                    <a className="blog-square" href="https://blog.dinaspencer.net/autonomos-and-seguridad-social/" target="_blank" rel="noreferrer">
                         <img className="blog-img" src="/img/blog3.jpg" alt="park"></img> 
-                        <p>Life After Auxiliaring</p>
+                        <p>You’re Finally Autónomo. Now What? Seguridad Social</p>
                     </a>
                     </div>
                     <a id="blog-open" className="blog-btn" href="https://blog.dinaspencer.net" target="_blank" rel="noreferrer">Read more about life in Spain</a>
