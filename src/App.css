@@ -386,6 +386,14 @@ button, input {
   opacity: 0.5;
 }
 
+#gotcha {
+  text-indent:-99999px; 
+  /* display: none; */
+  white-space:nowrap; 
+  overflow:hidden; 
+  position:absolute
+}
+
 #blog {
   background-color:#16063a;
   padding-bottom: 64px;
