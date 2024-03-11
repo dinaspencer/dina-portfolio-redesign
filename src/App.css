@@ -146,6 +146,7 @@ button, input {
   border-color: #16063a;
   font-family: "Roboto Mono", monospace;
   background-color: #16063a;
+  
   }
 
   #services-signup {
@@ -454,6 +455,10 @@ button, input {
 .blog-btn:hover {
   opacity: 0.6;
   border: none;
+}
+
+.footer-links {
+  margin-top: -60px;
 }
 
 .footer-links p {

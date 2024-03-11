@@ -3,7 +3,7 @@ import { SiAbbott } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
-import { AiOutlineArrowDown } from "react-icons/ai";
+// import { AiOutlineArrowDown } from "react-icons/ai";
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -28,12 +28,13 @@ export default function Services () {
             <li className="services-circle"><p>develop leadership skills</p></li>
             <li className="services-circle"><p>feel confident in meetings</p></li>
             <li className="services-circle"><p>give outstanding presentations</p></li>
-            <li className="services-circle last-circle"><a href="#english"><p><strong>hey! ready to improve your fluency?</strong></p><AiOutlineArrowDown className="arrow"/></a></li>
+            <li className="services-circle"><p>improve your fluency</p></li>
         </ul>
 
             <div className="english-buttons">
             {/* <Button  className="service-btn" href="#contact" >Work with me</Button> */}
-            <Button  className="service-btn" onClick={handleShow}>Want a free English newsletter?</Button>
+            <Button className="service-btn" href="#english">Download my free fluency guide</Button>
+            <Button  className="service-btn" onClick={handleShow}>Get my weekly English newsletter</Button>
            </div>
            
             <Offcanvas show={show} onHide={handleClose} placement="end" className="services-modal">
