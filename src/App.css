@@ -136,6 +136,7 @@ button, input {
 .services-circle.flip {
   --rotate-y: 180deg;
   background: transparent;
+  background-color: #ffe6aa
 }
 
 .services-circle .front, .services-circle .back {
