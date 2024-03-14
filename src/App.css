@@ -96,9 +96,10 @@ button, input {
   font-size: 100%;
   margin: 16px;
   padding: 12px;
-  width: 160px;
-  height: 160px;
+  width: 190px;
+  height: 190px;
   border: 3px solid #16063a;
+  color: #16063a;
   border-radius: 100%;
   /* cursor: pointer; */
 }
@@ -108,24 +109,54 @@ button, input {
 } */
 
 .services-circle {
-  display: flex;
-  flex-direction: column;
+  
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+-webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+-webkit-box-pack: center;
+-ms-flex-pack: center;
   justify-content: center;
-  padding-top: 48px;
-}
-
-.services-circle a {
-  text-decoration: none;
-  color: #16063a;
-}
-
-.last-circle {
-  padding-top: 28px!important;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-transition: 150ms;
+  -o-transition: 150ms;
+  transition: 150ms;
   cursor: pointer;
 }
 
-.last-circle:hover {
+
+.services-circle:hover {
   background-color: #ffe6aa;
+}
+
+
+.services-circle.flip {
+  --rotate-y: 180deg;
+  background: transparent;
+}
+
+.services-circle .front, .services-circle .back {
+  position: absolute;
+  /* font-size: 1.6em; */
+  padding: 22px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          
+}
+
+.services-circle .front {
+  -webkit-transform: rotateY(0deg);
+       transform: rotateY(0deg);
+}
+
+.services-circle .back  {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+ 
+            
 }
 
 .arrow {
