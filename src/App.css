@@ -579,6 +579,10 @@ button, input {
     font-size: 1.2em;
   }
 
+  .services-circle:active {
+    background-color: #ffe6aa;
+  }
+
   .english-buttons {
     display: flex;
     flex-direction: column;
