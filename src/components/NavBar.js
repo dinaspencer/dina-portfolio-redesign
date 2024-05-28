@@ -27,17 +27,17 @@ export default function NavBar() {
                       </Link>
                       {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-            {/* <Link
+            <Link
                 // activeClass="active"
-                to="english"
+                to="students"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
                 className="nav-item"
                     >
-                      Fluency
-                      </Link> */}
+                      Reviews
+                      </Link>
               <Link
                 activeClass="active"
                 to="dev-section"

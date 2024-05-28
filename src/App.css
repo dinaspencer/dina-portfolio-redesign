@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5 {
 
 }
 
+
 p {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -48,6 +49,7 @@ button, input {
 .navbar-items {
   padding: 24px 32px 24px 46px;
   align-items: right!important;
+  font-size: 86%;
   
 }
 
@@ -76,6 +78,7 @@ button, input {
 #services {
   color: #16063a;
   background-color: #8b7aae;
+  /* padding-bottom: 100px; */
 }
 
 #services h2 {
@@ -209,11 +212,13 @@ button, input {
   width: 100%;
   background-color: #4e5400;
   padding: 24px;
-  margin-top: -48px;
+  padding-top: 64px;
+  /* margin-top: -48px; */
+  padding-bottom: 100px;
 }
 
 .student-companies h4 {
-  padding-top: 24px;
+  padding-top: 48px;
 }
 
 .icons-student {
@@ -224,7 +229,26 @@ button, input {
 }
 
 .icons-student p {
-  padding: 0px 24px 0px 12px;
+  padding: 0px 24px 24px 12px;
+}
+
+
+#review-carousel {
+  margin-top: -48px;
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators button {
+  color: #aa8839!important;
+} */
+
+.star {
+  color: #aa8839;
+  font-size: 24px;
+}
+
+.review-text {
+  /* font-size: 0.9em; */
+  padding-top: 12px;
 }
 
 #english {
@@ -544,6 +568,11 @@ button, input {
 
   .nav-item {
     padding: 12px 12px 6px 12px!important;
+    
+  }
+
+  .navbar-items {
+    font-size: 100%;
   }
 
   #main {
@@ -687,6 +716,10 @@ button, input {
     width: 66%!important;
   
   }
+
+  .reviews {
+    margin-top: -80px;
+  }
   
 }
 
@@ -703,5 +736,15 @@ button, input {
   .dev-modal-body {
     padding: 12px;
   }
+
+  .carousel-img {
+    height: 220px;
+    margin-top: 78px;
+  }
+
+  .review-text {
+    font-size: 94%;
+  }
+
 }
 

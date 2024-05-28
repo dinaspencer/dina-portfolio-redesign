@@ -5,7 +5,7 @@ export const projects = [
             "description": "I created an interactive flashcard app for English learners using React. Reusable components populate with JSON data on clickable cards that flip from one side to another. Cards are set and flipped with useState. The final project is deployed and hosted on Netlify.",
             "skills": "React, JavaScript, HTML, CSS",
             "thumbnail": "img/eng-mockup.png",
-            "link": "https://dinaspencer-englishapp.netlify.app/",
+            "link": "https://englishcards.netlify.app/",
           },
           {
             "id": 2,
@@ -43,7 +43,7 @@ export const projects = [
             "id": 6,
             "title": "Email marketing",
             "description": "Following design specifications from the company CEO, I customized HTML and CSS inside MailChimp to create attractive email campaigns for a global audience.",
-            "skills": "Research, WordPress",
+            "skills": "HTML, CSS, MailChimp, UX Design",
             "thumbnail": "img/email.png", 
             "link": "https://dinaspencer.net/china-digest.html",
           },

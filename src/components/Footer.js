@@ -1,7 +1,7 @@
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-import { SiInstagram } from "react-icons/si";
-import { SiUnsplash } from "react-icons/si";
+// import { SiInstagram } from "react-icons/si";
+// import { SiUnsplash } from "react-icons/si";
 // import { useState } from 'react';
 // import Modal from 'react-bootstrap/Modal';
 
@@ -17,7 +17,7 @@ export default function Footer () {
         <>
         <section id="footer">
             <div className="footer-container">
-            <iframe title="footer-signup" id="footer-signup" height="430" src="https://0760bbe7.sibforms.com/serve/MUIFAA-s3_ZXpsi96AbZyPas1NW3eNdiGDqUlPcDfxuwuir0AVoqDssN9iiuLfWTEw_QcAhRc3Hnu4efRfaCKMDc-5mv0mWGfjBf0jfgJlWQi9edC1IdNYXU3W9NjmfudilwrB4cMrTgo7euxpS2WNMH2sfgb7Wmgj6D0hdCBl23dKk-LjZktS2RWygMKhg_7Fi9Ze3hemZymYVx" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
+            <iframe title="footer-signup" id="footer-signup" height="500" src="https://0760bbe7.sibforms.com/serve/MUIFAA-s3_ZXpsi96AbZyPas1NW3eNdiGDqUlPcDfxuwuir0AVoqDssN9iiuLfWTEw_QcAhRc3Hnu4efRfaCKMDc-5mv0mWGfjBf0jfgJlWQi9edC1IdNYXU3W9NjmfudilwrB4cMrTgo7euxpS2WNMH2sfgb7Wmgj6D0hdCBl23dKk-LjZktS2RWygMKhg_7Fi9Ze3hemZymYVx" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
 
         {/* <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className="footer-modal"></Modal.Header>
@@ -43,9 +43,9 @@ export default function Footer () {
                 
                 <ul className="social-icons">
                     <li><a href="https://www.linkedin.com/in/dinakspencer/" target="_blank" rel="noreferrer"><SiLinkedin size={30} style={{opacity: 0.6}} /></a></li>
-                    <li><a href="https://www.instagram.com/dina.spencer.photo/" target="_blank" rel="noreferrer"><SiInstagram size={30} style={{opacity: 0.6}}/></a></li>
+                    {/* <li><a href="https://www.instagram.com/dina.spencer.photo/" target="_blank" rel="noreferrer"><SiInstagram size={30} style={{opacity: 0.6}}/></a></li> */}
                     <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><SiGithub size={30} style={{opacity: 0.6}}/></a></li>
-                    <li><a href="https://unsplash.com/@dinaspencer" target="_blank" rel="noreferrer"><SiUnsplash size={30} style={{opacity: 0.6}}/></a></li>
+                    {/* <li><a href="https://unsplash.com/@dinaspencer" target="_blank" rel="noreferrer"><SiUnsplash size={30} style={{opacity: 0.6}}/></a></li> */}
                     
                     
                 </ul>

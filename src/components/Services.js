@@ -7,6 +7,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Carousel from 'react-bootstrap/Carousel';
+import carouselImage from './ExampleCarouselImage.png';
+import { AiFillStar } from "react-icons/ai";
+
 
 
 const content = [
@@ -86,14 +90,53 @@ export default function Services () {
         
             </div>
 
-            <div className="student-companies">
+            <div className="student-companies" id="students">
                <h4> I've worked with students from these companies and more.</h4>
                 <div className="icons-student">
-                    <p><SiAbbvie size={120} style={{opacity: 0.6}} /></p>
-                    <p><SiAbbott size={80} style={{opacity: 0.6}} /></p>
-                    <p><SiLinkedin size={80} style={{opacity: 0.6}} /></p>
-                    <p><SiTwitter size={80} style={{opacity: 0.6}} /></p>
-                    <p><SiFacebook size={80} style={{opacity: 0.6}} /></p>
+                    <p><SiAbbvie size={100} style={{opacity: 0.6}} /></p>
+                    <p><SiAbbott size={70} style={{opacity: 0.6}} /></p>
+                    <p><SiLinkedin size={70} style={{opacity: 0.6}} /></p>
+                    <p><SiTwitter size={70} style={{opacity: 0.6}} /></p>
+                    <p><SiFacebook size={70} style={{opacity: 0.6}} /></p>
+                </div>
+                <div className="reviews">
+                {/* <h2>reviews</h2> */}
+                <Carousel id="review-carousel">
+                    
+                    <Carousel.Item>
+                        <img src={carouselImage} alt="green" className="carousel-img" />
+                        <Carousel.Caption>
+                        <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
+                        
+                        <p className="review-text">I've been with Dina for a short time, but the experience has been very positive. I think she is very empathetic, she listens well, and corrects me continuously. She makes the class very easy and enjoyable.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={carouselImage} alt="green" className="carousel-img"  />
+                        <Carousel.Caption>
+                        <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
+                        
+                        <p className="review-text">Excellent teacher. I like her way of teaching, she always adapts to my needs. She gives me many tips and advice to learn the language.</p>
+                        </Carousel.Caption> 
+                        
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={carouselImage} alt="green" className="carousel-img"  />
+                        <Carousel.Caption>
+                        <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
+                        
+                        <p className="review-text">Starting as a teacher she will end as a good friend. English classes are always funny</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={carouselImage} alt="green" className="carousel-img"  />
+                        <Carousel.Caption>
+                        <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
+                        
+                        <p className="review-text">Es una magnifica profesora. Sus clases son intensas en el buen sentido. Trabaja todas las habilidades. Se implica, utiliza materiales atractivos. Hace un gran seguimiento de cada alumno.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
                 </div>
             </div>
 

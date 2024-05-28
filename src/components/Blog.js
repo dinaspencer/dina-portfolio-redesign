@@ -6,7 +6,7 @@ export default function Blog () {
         <>
         <section id="blog">
         <div className="container-main">
-            <h3>i've been working in Spain since before the digital nomad visa was a thing.</h3>
+            <h3>I've been living & working in Spain since before the digital nomad visa was a thing.</h3>
             <div className="blog-main">
                     <a className="blog-square" href="https://blog.dinaspencer.net/how-to-become-autonomo-in-spain/" target="_blank" rel="noreferrer">
                         <img className="blog-img" src="/img/blog1.jpg" alt="statue"></img>
