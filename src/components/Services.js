@@ -125,6 +125,15 @@ export default function Services () {
                         <Carousel.Caption>
                         <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
                         
+                        <p className="review-text">Dina es una persona extraordinaria. Es una profesora de inglés atenta, simpática, buen profesional... sin duda la recomendaría a cualquier persona que me preguntase por ella. Una profesional de 10</p>
+                        </Carousel.Caption> 
+                        
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={carouselImage} alt="green" className="carousel-img"  />
+                        <Carousel.Caption>
+                        <AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star"/><AiFillStar className="star" /><AiFillStar className="star" />
+                        
                         <p className="review-text">Starting as a teacher she will end as a good friend. English classes are always funny</p>
                         </Carousel.Caption>
                     </Carousel.Item>
