@@ -202,6 +202,37 @@ button, input {
     max-height: 96%!important;
   }
 
+  .newsletter-accordion-item {
+    background-color: #8b7aae!important;
+    text-align: left;
+    
+
+  }
+
+
+  .accordion-button {
+    background-color: #8b7aae!important;
+    padding-left: 50px;
+  }
+
+  .newsletter-accordion-body {
+    padding-bottom: 48px;
+  }
+
+  .newsletter-accordion-body h4 {
+    padding-top: 16px;
+  }
+
+.nl-link {
+  text-decoration: none;
+  color:#16063a;
+  padding-top: 12px;
+  margin-bottom: 12px;
+  border-bottom: 3px solid #16063a;
+}
+
+
+
   .service-btn:hover {
     background-color: #2b1657;
     border: 2px solid #2b1657;
@@ -625,6 +656,10 @@ button, input {
   width: 64%;
  }
 
+ button.accordion-button {
+  padding: 32px 68px 32px 68px;
+}
+
   .student-companies {
     margin-top: 20px;
   }
@@ -691,6 +726,11 @@ button, input {
     display: flex;
     flex-direction: row;
   }
+
+  button.accordion-button {
+    padding: 32px 378px 32px 278px;
+  } 
+
   .cv-wide {
     display: flex;
     flex-direction: row;
@@ -731,6 +771,10 @@ button, input {
   #main {
     padding: 0px 32px 48px 32px!important;
     
+  }
+
+  .nl-link {
+    font-size: 80%;
   }
 
   .dev-modal-body {

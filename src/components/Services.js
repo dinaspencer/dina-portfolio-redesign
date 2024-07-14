@@ -10,6 +10,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Carousel from 'react-bootstrap/Carousel';
 import carouselImage from './ExampleCarouselImage.png';
 import { AiFillStar } from "react-icons/ai";
+import { Accordion } from "react-bootstrap";
 
 
 
@@ -87,7 +88,25 @@ export default function Services () {
                     <iframe title="newsletter" id="services-signup" src="https://0760bbe7.sibforms.com/serve/MUIFAJopn2TPn1zjyzZYtw6fQIGFjijfTrZ_exkL-_Xk79WDn8BIBF7kMeRNBMYs7d1bRU68nqMriHm9WmCze3mapCn2pm7KSHsmZ0IE_t2d0FgWZXkxKKk-yf5Svi6M70pksbevI2526-fsJT5BiE71Bcko9z_E9hV8HFgHserroMKs2zKFMG_3jn41QBVcu19BZ03ZG-5MMGC4"  scrolling="auto" allowFullScreen ></iframe>
                 </Offcanvas.Body>
             </Offcanvas>
+
+    <Accordion flush className="newsletter-accordion-main">
+      <Accordion.Item eventKey="0" className="newsletter-accordion-item">
+        <Accordion.Header className="newsletter-accordion-header"><h3>previous newsletters</h3></Accordion.Header>
+        <Accordion.Body className="newsletter-accordion-body">
         
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240710" target="_blank" rel="noreferrer">July 10, 2024: How to deliver not-so-good news</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240703" target="_blank" rel="noreferrer">July 3, 2024: Hit me with your best shot</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240626" target="_blank" rel="noreferrer">June 26, 2024: Let's agree to disagree</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240619" target="_blank" rel="noreferrer">June 19, 2024: How budgeting pays off</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240612" target="_blank" rel="noreferrer">June 12, 2024: Fake it til you make it</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240605" target="_blank" rel="noreferrer">June 5, 2024: #sorrynotsorry</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240529" target="_blank" rel="noreferrer">May 29, 2024: Let's get together and feel alright</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240522" target="_blank" rel="noreferrer">May 22, 2024: Setting boundaries sets you up for success</a></h4>
+           <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240515" target="_blank" rel="noreferrer">May 15, 2024: What are you getting rid of?</a></h4>
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+    
             </div>
 
             <div className="student-companies" id="students">
