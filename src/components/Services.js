@@ -93,7 +93,7 @@ export default function Services () {
       <Accordion.Item eventKey="0" className="newsletter-accordion-item">
         <Accordion.Header className="newsletter-accordion-header"><h3>previous newsletters</h3></Accordion.Header>
         <Accordion.Body className="newsletter-accordion-body">
-        
+            <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240717.html" target="_blank" rel="noreferrer">July 17, 2024: Gearing up for the summer</a></h4>
            <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240710.html" target="_blank" rel="noreferrer">July 10, 2024: How to deliver not-so-good news</a></h4>
            <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240703.html" target="_blank" rel="noreferrer">July 3, 2024: Hit me with your best shot</a></h4>
            <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240626.html" target="_blank" rel="noreferrer">June 26, 2024: Let's agree to disagree</a></h4>
