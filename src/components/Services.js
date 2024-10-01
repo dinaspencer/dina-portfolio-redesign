@@ -1,7 +1,7 @@
 import { SiAbbvie } from "react-icons/si";
 import { SiAbbott } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
-import { SiTwitter } from "react-icons/si";
+// import { SiTwitter } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from 'react-bootstrap/Button';
@@ -124,7 +124,7 @@ export default function Services () {
                     <p><SiAbbvie size={100} style={{opacity: 0.6}} /></p>
                     <p><SiAbbott size={70} style={{opacity: 0.6}} /></p>
                     <p><SiLinkedin size={70} style={{opacity: 0.6}} /></p>
-                    <p><SiTwitter size={70} style={{opacity: 0.6}} /></p>
+                    {/* <p><SiTwitter size={70} style={{opacity: 0.6}} /></p> */}
                     <p><SiFacebook size={70} style={{opacity: 0.6}} /></p>
                 </div>
                 <div className="reviews">
