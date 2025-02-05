@@ -29,7 +29,7 @@ export default function Footer () {
        
 
             <div className="footer-links">
-                <p>©Dina Spencer 2024</p>
+                <p>©Dina Spencer 2025</p>
             
                <p><a href="#contact" id="english-contact">Work with me</a></p> 
                <p><a href="#english" id="english-contact">Fluency guide</a></p> 

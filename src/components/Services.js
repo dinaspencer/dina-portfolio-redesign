@@ -10,7 +10,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Carousel from 'react-bootstrap/Carousel';
 import carouselImage from './ExampleCarouselImage.png';
 import { AiFillStar } from "react-icons/ai";
-import { Accordion } from "react-bootstrap";
+// import { Accordion } from "react-bootstrap";
 
 
 
@@ -60,8 +60,8 @@ export default function Services () {
         <>
         <section id="services">
             <div className="container-main">
-        <h3>english coaching for intermediate and advanced learners</h3>
-        <h3>who want to...</h3>
+        <h3>business english coaching</h3>
+        <h3>that will help you:</h3>
         
         
        
@@ -76,7 +76,7 @@ export default function Services () {
             <div className="english-buttons">
             {/* <Button  className="service-btn" href="#contact" >Work with me</Button> */}
             <Button className="service-btn" href="#english">Download my free fluency guide</Button>
-            <Button  className="service-btn" onClick={handleShow}>Get my weekly English newsletter</Button>
+            <Button  className="service-btn" onClick={handleShow}>Get my monthly English newsletter</Button>
            </div>
            
             <Offcanvas show={show} onHide={handleClose} placement="end" className="services-modal">
@@ -89,7 +89,7 @@ export default function Services () {
                 </Offcanvas.Body>
             </Offcanvas>
 
-    <Accordion flush className="newsletter-accordion-main">
+   {/*  <Accordion flush className="newsletter-accordion-main">
       <Accordion.Item eventKey="0" className="newsletter-accordion-item">
         <Accordion.Header className="newsletter-accordion-header"><h3>previous newsletters</h3></Accordion.Header>
         <Accordion.Body className="newsletter-accordion-body">
@@ -114,7 +114,7 @@ export default function Services () {
            <h4><a className="nl-link" href="https://newsletter.dinaspencer.net/20240306.html" target="_blank" rel="noreferrer">March 6, 2024: Today's phrasal verb: leave out</a></h4>
         </Accordion.Body>
       </Accordion.Item>
-    </Accordion>
+    </Accordion> */}
     
             </div>
 

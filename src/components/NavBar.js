@@ -23,7 +23,7 @@ export default function NavBar() {
                 duration={500}
                 className="nav-item"
                     >
-                      Services
+                      Language Coaching
                       </Link>
                       {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
@@ -46,7 +46,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                 className="nav-item"
-                    >Projects</Link>
+                    >Web Projects</Link>
                     {/* </Nav.Link> */}
            {/* <Nav.Link className="nav-item"> */}
             <Link
@@ -71,15 +71,15 @@ export default function NavBar() {
                     >Contact</Link>
                     {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-              <Link
+             {/*  <Link
                 activeClass="active"
                 to="blog"
                 spy={true}
                 smooth={true}
-                // offset={-70}
                 duration={500}
-                className="nav-item">Blog</Link>
+                className="nav-item">Blog</Link> */}
                     {/* </Nav.Link> */}
+                    <a href="https://autonomo.dinaspencer.net" className="nav-item">For Autónomos</a>
           </Nav>
         </Navbar.Collapse>
       </Container>
