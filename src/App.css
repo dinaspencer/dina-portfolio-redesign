@@ -33,6 +33,7 @@ button, input {
 
 .nav-main a {
   color:#16063a!important;
+  text-decoration: none;
 }
 
 .container-main {

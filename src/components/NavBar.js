@@ -16,39 +16,18 @@ export default function NavBar() {
               
               <Link
                 // activeClass="active"
-                to="services"
+                to="english"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
                 className="nav-item"
                     >
-                      Services
+                      Autónomo Setup Kit
                       </Link>
                       {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-            <Link
-                // activeClass="active"
-                to="students"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration={500}
-                className="nav-item"
-                    >
-                      Reviews
-                      </Link>
-              <Link
-                activeClass="active"
-                to="dev-section"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration={500}
-                className="nav-item"
-                    >Projects</Link>
-                    {/* </Nav.Link> */}
-           {/* <Nav.Link className="nav-item"> */}
+           
             <Link
                 activeClass="active"
                 to="about"
@@ -80,6 +59,20 @@ export default function NavBar() {
                 duration={500}
                 className="nav-item">Blog</Link>
                     {/* </Nav.Link> */}
+                    {/* {<Link
+                activeClass="active"
+                to="https://newsletter.dinaspencer.net"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-item"
+                    >
+                      English Coaching
+                      </Link>} */}
+                      <a href="https://english.dinaspencer.net" className="nav-item">English Coaching</a>
+             
+                    {/* </Nav.Link> */}
+           {/* <Nav.Link className="nav-item"> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

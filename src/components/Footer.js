@@ -1,5 +1,5 @@
 import { SiLinkedin } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
+// import { SiGithub } from "react-icons/si";
 // import { SiInstagram } from "react-icons/si";
 // import { SiUnsplash } from "react-icons/si";
 // import { useState } from 'react';
@@ -17,7 +17,8 @@ export default function Footer () {
         <>
         <section id="footer">
             <div className="footer-container">
-            <iframe title="footer-signup" id="footer-signup" height="500" src="https://0760bbe7.sibforms.com/serve/MUIFAA-s3_ZXpsi96AbZyPas1NW3eNdiGDqUlPcDfxuwuir0AVoqDssN9iiuLfWTEw_QcAhRc3Hnu4efRfaCKMDc-5mv0mWGfjBf0jfgJlWQi9edC1IdNYXU3W9NjmfudilwrB4cMrTgo7euxpS2WNMH2sfgb7Wmgj6D0hdCBl23dKk-LjZktS2RWygMKhg_7Fi9Ze3hemZymYVx" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
+            <iframe title="footer-signup" id="footer-signup" height="500" src="https://0760bbe7.sibforms.com/serve/MUIFALjPVTQ7LZGmFf1SPluaf5spLims6ixjSUlTZ_8uBL_-yop3zUwe_8j9KcZrOnLIM8awjVyiCtmIvEoYi78DGuVdoHPi2DZdFkVup5_fX3kvKhx3H-dFJw3Tyr9mQnsbfw_uanPVAJ7IaVU_VwAjKgC63FNUs6_KhEIqJMHYF6JYcyd4c2iyvbzlG187BLGffw-eua0YY0Cl" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
+          
 
         {/* <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className="footer-modal"></Modal.Header>
@@ -29,10 +30,10 @@ export default function Footer () {
        
 
             <div className="footer-links">
-                <p>©Dina Spencer 2024</p>
+                <p>©Dina Spencer 2025</p>
             
-               <p><a href="#contact" id="english-contact">Work with me</a></p> 
-               <p><a href="#english" id="english-contact">Fluency guide</a></p> 
+               <p><a href="#contact" id="english-contact">Get in touch</a></p> 
+               <p><a href="#english" id="english-contact">Autónomo Setup Kit</a></p> 
             {/* <p id="newsletter" onClick={handleShow}>English newsletter signup</p> */}
 
             
@@ -44,7 +45,7 @@ export default function Footer () {
                 <ul className="social-icons">
                     <li><a href="https://www.linkedin.com/in/dinakspencer/" target="_blank" rel="noreferrer"><SiLinkedin size={30} style={{opacity: 0.6}} /></a></li>
                     {/* <li><a href="https://www.instagram.com/dina.spencer.photo/" target="_blank" rel="noreferrer"><SiInstagram size={30} style={{opacity: 0.6}}/></a></li> */}
-                    <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><SiGithub size={30} style={{opacity: 0.6}}/></a></li>
+                    {/* <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><SiGithub size={30} style={{opacity: 0.6}}/></a></li> */}
                     {/* <li><a href="https://unsplash.com/@dinaspencer" target="_blank" rel="noreferrer"><SiUnsplash size={30} style={{opacity: 0.6}}/></a></li> */}
                     
                     
