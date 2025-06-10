@@ -4,10 +4,10 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Main from './components/Main';
 import About from './components/About';
-import Services from './components/Services';
+// import Services from './components/Services';
 import English from './components/English';
 import Cv from './components/Cv';
-// import Blog from './components/Blog';
+import Blog from './components/Blog';
 import Dev from './components/Dev';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -18,13 +18,13 @@ function App() {
     <div className="App">
      <NavBar />
       <Main />
-      <Services />
+      {/* <Services /> */}
       <English />
-      <Dev />
+      {/* <Dev /> */}
       <About />
       <Contact />
       <Cv />
-      {/* <Blog /> */}
+      <Blog />
       <Footer />
     </div>
   );
