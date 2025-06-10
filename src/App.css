@@ -470,7 +470,21 @@ button, input {
   border-radius: 40px;
 }
 
+.newsl-btn {
+  background-color: #16063a;;
+  border: 2px solid #16063a!important;
+  color: white;
+  border-radius: 40px;
+  font-family: "Roboto Mono",monospace;
+  width: 60%;
+  height: 48px;
+}
+
 #submit-btn:hover {
+  opacity: 0.5;
+}
+
+.newsl-btn:hover {
   opacity: 0.5;
 }
 
@@ -552,7 +566,7 @@ button, input {
   font-family: "Roboto Mono", monospace;
 }
 
-#english-contact, #newsletter {
+.english-contact, #newsletter {
   cursor: pointer;
   text-decoration: none;
   color: #16063a;

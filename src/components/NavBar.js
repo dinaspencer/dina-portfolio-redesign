@@ -40,13 +40,13 @@ export default function NavBar() {
                       </Link>
               <Link
                 activeClass="active"
-                to="dev-section"
+                to="english"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
                 className="nav-item"
-                    >Web Projects</Link>
+                    >Fluency Guide</Link>
                     {/* </Nav.Link> */}
            {/* <Nav.Link className="nav-item"> */}
             <Link

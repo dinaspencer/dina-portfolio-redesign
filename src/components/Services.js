@@ -6,7 +6,7 @@ import { SiFacebook } from "react-icons/si";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+// import Offcanvas from 'react-bootstrap/Offcanvas';
 import Carousel from 'react-bootstrap/Carousel';
 import carouselImage from './ExampleCarouselImage.png';
 import { AiFillStar } from "react-icons/ai";
@@ -49,9 +49,9 @@ const ServicesList = ({circles}) => {
 export default function Services () {
 
 
-    const [show, setShow] = useState(false);
+   /*  const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () => setShow(true); */
 
    
    const [circles] = useState(shuffleCards);
@@ -74,20 +74,21 @@ export default function Services () {
       
 
             <div className="english-buttons">
-            {/* <Button  className="service-btn" href="#contact" >Work with me</Button> */}
+            <Button className="service-btn" href="https://forms.gle/qAhzKApbAs45Rrab8" target="_blank" rel="noreferrer">Book a class</Button>
             <Button className="service-btn" href="#english">Download my free fluency guide</Button>
-            <Button  className="service-btn" onClick={handleShow}>Get my monthly English newsletter</Button>
+            {/* <Button  className="service-btn" onClick={handleShow}>Subscribe to my English newsletter</Button> */}
            </div>
            
-            <Offcanvas show={show} onHide={handleClose} placement="end" className="services-modal">
+           {/*  <Offcanvas show={show} onHide={handleClose} placement="end" className="services-modal">
                 <Offcanvas.Header closeButton>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                    
 
-                    <iframe title="newsletter" id="services-signup" src="https://0760bbe7.sibforms.com/serve/MUIFAJopn2TPn1zjyzZYtw6fQIGFjijfTrZ_exkL-_Xk79WDn8BIBF7kMeRNBMYs7d1bRU68nqMriHm9WmCze3mapCn2pm7KSHsmZ0IE_t2d0FgWZXkxKKk-yf5Svi6M70pksbevI2526-fsJT5BiE71Bcko9z_E9hV8HFgHserroMKs2zKFMG_3jn41QBVcu19BZ03ZG-5MMGC4"  scrolling="auto" allowFullScreen ></iframe>
+                    <iframe title="newsletter" id="services-signup" src="https://0760bbe7.sibforms.com/serve/MUIFAB3Cl4IkiBvZLAfRkqhSw3pAul-UdAfENUIdIVKtG03yyjsQvi3meNa90ARXYW2pwM5XQ0-2EsTwqFRSRQoRumjM_n0oyg8Kzn7Os1l1K8Pke5VLK8sn0WOOWs8K5O8s8aZQuRzZbn7_rSg28sbMgFUVjjLj2JwDmsiz01_-pI8x98Jl8WL9YojtTvNQda0XU-qCjLRT_cF9"  scrolling="auto" allowFullScreen ></iframe>
+                    
                 </Offcanvas.Body>
-            </Offcanvas>
+            </Offcanvas> */}
 
    {/*  <Accordion flush className="newsletter-accordion-main">
       <Accordion.Item eventKey="0" className="newsletter-accordion-item">

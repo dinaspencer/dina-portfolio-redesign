@@ -17,8 +17,9 @@ export default function Footer () {
         <>
         <section id="footer">
             <div className="footer-container">
-            <iframe title="footer-signup" id="footer-signup" height="500" src="https://0760bbe7.sibforms.com/serve/MUIFAA-s3_ZXpsi96AbZyPas1NW3eNdiGDqUlPcDfxuwuir0AVoqDssN9iiuLfWTEw_QcAhRc3Hnu4efRfaCKMDc-5mv0mWGfjBf0jfgJlWQi9edC1IdNYXU3W9NjmfudilwrB4cMrTgo7euxpS2WNMH2sfgb7Wmgj6D0hdCBl23dKk-LjZktS2RWygMKhg_7Fi9Ze3hemZymYVx" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
+            <iframe title="footer-signup" id="footer-signup" height="500" src="https://0760bbe7.sibforms.com/serve/MUIFAOd834xmh3YsRt8hU3xyKYTkNmtT4g4PWGm9NsgLFLuw4wK9ToTUwXe0difooHfXgUKDzFIfRn8NzIYrtEllhunC3fAMjyxZc3wozQYy226YM5qVCg8-jxf2RpWIhSPiVFi4Ka6OskBTBVMWb5162pOMVZ04TdoIPxuZaP3NxIibgKrfZPSx52nMnl6du0RTiKzaw05q_khs" frameBorder="0" scrolling="auto" allowFullScreen ></iframe>
 
+           
         {/* <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className="footer-modal"></Modal.Header>
         <Modal.Body className="footer-modal modal-body">
@@ -31,8 +32,9 @@ export default function Footer () {
             <div className="footer-links">
                 <p>©Dina Spencer 2025</p>
             
-               <p><a href="#contact" id="english-contact">Work with me</a></p> 
-               <p><a href="#english" id="english-contact">Fluency guide</a></p> 
+               <p><a href="#contact" className="english-contact">Contact</a></p> 
+               <p><a href="#english" className="english-contact">Fluency guide</a></p> 
+               <p><a href="https://forms.gle/C91qTGD4j1kYSs1X6" className="english-contact">Book a class</a></p> 
             {/* <p id="newsletter" onClick={handleShow}>English newsletter signup</p> */}
 
             
