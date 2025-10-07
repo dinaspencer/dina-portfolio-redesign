@@ -16,18 +16,27 @@ export default function NavBar() {
               
               <Link
                 // activeClass="active"
-                to="services"
+                to="dev-section"
                 spy={true}
                 smooth={true}
                 // offset={-70}
                 duration={500}
                 className="nav-item"
                     >
-                      Language Coaching
+                      Projects
                       </Link>
+                      <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                // offset={-70}
+                duration={500}
+                className="nav-item"
+                    >Coaching</Link>
                       {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-            <Link
+            {/* <Link
                 // activeClass="active"
                 to="students"
                 spy={true}
@@ -37,8 +46,8 @@ export default function NavBar() {
                 className="nav-item"
                     >
                       Reviews
-                      </Link>
-              <Link
+                      </Link> */}
+              {/* <Link
                 activeClass="active"
                 to="english"
                 spy={true}
@@ -46,7 +55,7 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                 className="nav-item"
-                    >Fluency Guide</Link>
+                    >Fluency Guide</Link> */}
                     {/* </Nav.Link> */}
            {/* <Nav.Link className="nav-item"> */}
             <Link
@@ -71,15 +80,15 @@ export default function NavBar() {
                     >Contact</Link>
                     {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
-             {/*  <Link
+              <Link
                 activeClass="active"
                 to="blog"
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-item">Blog</Link> */}
+                className="nav-item">Blog</Link>
                     {/* </Nav.Link> */}
-                    <a href="https://autonomo.dinaspencer.net" className="nav-item">For Autónomos</a>
+                    {/* <a href="https://autonomo.dinaspencer.net" className="nav-item">For Autónomos</a> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,7 +1,7 @@
 import { SiAbbvie } from "react-icons/si";
 import { SiAbbott } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
-// import { SiTwitter } from "react-icons/si";
+import { SiMercedes } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from 'react-bootstrap/Button';
@@ -60,8 +60,8 @@ export default function Services () {
         <>
         <section id="services">
             <div className="container-main">
-        <h3>business english coaching</h3>
-        <h3>that will help you:</h3>
+        <h3>communication coaching that will help you:</h3>
+        {/* <h3>that will help you:</h3> */}
         
         
        
@@ -74,8 +74,8 @@ export default function Services () {
       
 
             <div className="english-buttons">
-            <Button className="service-btn" href="https://forms.gle/qAhzKApbAs45Rrab8" target="_blank" rel="noreferrer">Book a class</Button>
-            <Button className="service-btn" href="#english">Download my free fluency guide</Button>
+            <Button className="service-btn" href="https://forms.gle/qAhzKApbAs45Rrab8" target="_blank" rel="noreferrer">Book a session</Button>
+            {/* <Button className="service-btn" href="#english">Download my free fluency guide</Button> */}
             {/* <Button  className="service-btn" onClick={handleShow}>Subscribe to my English newsletter</Button> */}
            </div>
            
@@ -120,13 +120,14 @@ export default function Services () {
             </div>
 
             <div className="student-companies" id="students">
-               <h4> I've worked with students from these companies and more.</h4>
+               <h4> I've coached professionals from these companies and more.</h4>
                 <div className="icons-student">
-                    <p><SiAbbvie size={100} style={{opacity: 0.6}} /></p>
+                    <p><SiAbbvie size={70} style={{opacity: 0.6}} /></p>
+                    <p><SiMercedes size={70} style={{opacity: 0.6}} /></p>
                     <p><SiAbbott size={70} style={{opacity: 0.6}} /></p>
                     <p><SiLinkedin size={70} style={{opacity: 0.6}} /></p>
-                    {/* <p><SiTwitter size={70} style={{opacity: 0.6}} /></p> */}
                     <p><SiFacebook size={70} style={{opacity: 0.6}} /></p>
+                     
                 </div>
                 <div className="reviews">
                 {/* <h2>reviews</h2> */}

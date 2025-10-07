@@ -32,8 +32,8 @@ export default function Footer () {
             <div className="footer-links">
                 <p>©Dina Spencer 2025</p>
             
-               <p><a href="#contact" className="english-contact">Contact</a></p> 
-               <p><a href="#english" className="english-contact">Fluency guide</a></p> 
+               <p><a className="english-contact" href="mailto:hello@dinaspencer.net?Subject=Contact from dinaspencer.net">Contact</a></p> 
+               {/* <p><a href="#english" className="english-contact">Fluency guide</a></p>  */}
                <p><a href="https://forms.gle/C91qTGD4j1kYSs1X6" className="english-contact">Book a class</a></p> 
             {/* <p id="newsletter" onClick={handleShow}>English newsletter signup</p> */}
 
