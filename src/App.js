@@ -9,7 +9,7 @@ import Services from './components/Services';
 // import Cv from './components/Cv';
 import Blog from './components/Blog';
 import Dev from './components/Dev';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
@@ -18,12 +18,10 @@ function App() {
     <div className="App">
      <NavBar />
       <Main />
-      {/* <English /> */}
+      <About />
       <Dev />
       <Services />
-      <About />
-      <Contact />
-      {/* <Cv /> */}
+      {/* <Contact /> */}
       <Blog />
       <Footer />
     </div>

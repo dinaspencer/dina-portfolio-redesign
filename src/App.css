@@ -75,6 +75,18 @@ button, input {
   color: #fff!important;
 }
 
+#main p {
+  font-size: 22px;
+}
+
+.heading {
+  padding-bottom: 36px;
+}
+
+.strategy-icon {
+  font-size: 58px;
+}
+
 #services {
   color: #16063a;
   background-color: #8b7aae;
@@ -345,7 +357,7 @@ button, input {
 }
 
 #dev-section p {
-  width: 33%;
+  width: 43%;
   font-size: 120%;
   list-style-type: none;
   line-height: 0.7;
@@ -406,7 +418,7 @@ button, input {
 }
 
 .mid-width-left {
-  width: 50%;
+  width: 66%;
   /* margin-right: 50%; */
   /* background-color: #9ee6c2; */
   background-color: #cad169;
@@ -416,11 +428,13 @@ button, input {
 }
 
 .image-half-page {
- max-width: 50%;
+ max-width: 40%;
  overflow: hidden;
  background-position: center;
  background-color: #7bd4e9;
  opacity: 0.9;
+ padding-top: 80px;
+ padding-left: 22px;
  
 }
 
@@ -470,7 +484,7 @@ button, input {
   border-radius: 40px;
 }
 
-.newsl-btn {
+/* .newsl-btn {
   background-color: #16063a;;
   border: 2px solid #16063a!important;
   color: white;
@@ -478,15 +492,15 @@ button, input {
   font-family: "Roboto Mono",monospace;
   width: 60%;
   height: 48px;
-}
+} */
 
 #submit-btn:hover {
   opacity: 0.5;
 }
-
+/* 
 .newsl-btn:hover {
   opacity: 0.5;
-}
+} */
 
 #gotcha {
   text-indent:-99999px; 
@@ -587,6 +601,7 @@ button, input {
 
 #footer-signup  {
   width: 100%!important;
+  background-color: #aa9f39!important;
   
 }
 
@@ -635,7 +650,7 @@ button, input {
   }
  
   #dev-section p {
-    width: 78%;
+    width: 73%;
     font-size: 130%;
     padding-top: 22px;
   }
@@ -643,6 +658,10 @@ button, input {
   .dev-modal, .services-modal {
     width: 92%!important;
     
+  }
+
+  #dev-project h2 {
+    width: 120%;
   }
 
   #services li {
@@ -670,11 +689,11 @@ button, input {
   width: 64%;
  }
 
- .newsletter-accordion-main .accordion-button {
+ /* .newsletter-accordion-main .accordion-button {
   padding: 32px 68px 32px 68px;
-}
+} */
 
-  .student-companies {
+  /* .student-companies {
     margin-top: 20px;
   }
 
@@ -683,15 +702,15 @@ button, input {
     flex-wrap: wrap;
     padding: 36px;
     justify-content: center;
-  }
+  } */
 
-.pdf-signup {
+/* .pdf-signup {
   padding: 24px;
 }
 
 .fluency-pdf {
   width: 60%;
-}
+} */
 
   #about {
     display: flex;
@@ -701,20 +720,20 @@ button, input {
   .image-half-page {
     min-width: 100vw;
   }
-
+/* 
   #contact-form  {
     margin-left: 20%;
    
-  }
+  } */
 
-  #contact-form input {
+  /* #contact-form input {
     width: 80%;
   }
 
   #contact-form textarea {
     width: 80%;
     
-  }
+  } */
 
   .blog-square {
     width: 60%;
@@ -736,16 +755,8 @@ button, input {
 
 @media only screen and (min-width: 769px) {
 
-  .pdf-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .newsletter-accordion-main .accordion-button {
-    padding: 32px 378px 32px 278px;
-  } 
-
-  .cv-wide {
+  
+  /* .cv-wide {
     display: flex;
     flex-direction: row;
     margin: 0 auto; 
@@ -764,16 +775,17 @@ button, input {
     flex-direction: row;
     margin: 0 auto; 
     align-items: center;
-  }
+  } */
+
 
   .dev-modal {
     width: 66%!important;
   
   }
 
-  .reviews {
+  /* .reviews {
     margin-top: -80px;
-  }
+  } */
   
 }
 
@@ -787,6 +799,10 @@ button, input {
     
   }
 
+  #main h1 {
+    font-size: 110%;
+  }
+
   .nl-link {
     font-size: 80%;
   }
@@ -794,15 +810,20 @@ button, input {
   .dev-modal-body {
     padding: 12px;
   }
+    #dev-section p {
+    width: 83%;
+    font-size: 130%;
+    padding-top: 22px;
+  }
 
-  .carousel-img {
+  /* .carousel-img {
     height: 220px;
     margin-top: 78px;
   }
 
   .review-text {
     font-size: 94%;
-  }
+  } */
 
 }
 

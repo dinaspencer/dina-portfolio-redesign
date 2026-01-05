@@ -13,7 +13,15 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-items">
             {/* <Nav.Link className="nav-item"> */}
-              
+               <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                // offset={-70}
+                duration={500}
+                className="nav-item"
+                    >About</Link>
               <Link
                 // activeClass="active"
                 to="dev-section"
@@ -25,6 +33,7 @@ export default function NavBar() {
                     >
                       Projects
                       </Link>
+                     
                       <Link
                 activeClass="active"
                 to="services"
@@ -33,43 +42,11 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                 className="nav-item"
-                    >Coaching</Link>
-                      {/* </Nav.Link> */}
-            {/* <Nav.Link className="nav-item"> */}
-            {/* <Link
-                // activeClass="active"
-                to="students"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration={500}
-                className="nav-item"
-                    >
-                      Reviews
-                      </Link> */}
-              {/* <Link
-                activeClass="active"
-                to="english"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration={500}
-                className="nav-item"
-                    >Fluency Guide</Link> */}
-                    {/* </Nav.Link> */}
-           {/* <Nav.Link className="nav-item"> */}
-            <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration={500}
-                className="nav-item"
-                    >About</Link>
-                    {/* </Nav.Link> */}
-            {/* <Nav.Link className="nav-item"> */}
-              <Link
+                    >Contact </Link>
+                 
+           
+                   
+            {/*   <Link
                 activeClass="active"
                 to="contact"
                 spy={true}
@@ -77,7 +54,8 @@ export default function NavBar() {
                 // offset={-70}
                 duration={500}
                 className="nav-item"
-                    >Contact</Link>
+                    >Contact</Link> */}
+
                     {/* </Nav.Link> */}
             {/* <Nav.Link className="nav-item"> */}
               <Link

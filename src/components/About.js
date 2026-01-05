@@ -13,9 +13,11 @@ export default function About () {
                 <h1>who am I?</h1>
                 <h5><MdLocationPin />  Zaragoza, Spain</h5>
                 <h5 className="about-header"><MdHome /> Winston-Salem, North Carolina</h5>
-                <p>I decided to leave corporate America in 2013 and have lived in Spain for over ten years. In Spain I've worked as an auxiliar de conversación in high schools, a community manager in a startup, a digital editor, a freelance frontend developer and a business English communication coach. After much experience navigating the Spanish visa system, I'm now Autónoma with long-term residency.</p>
-                <p>With an MBA, a psychology degree and over a decade of teaching and administrative experience, I provide communication and technology solutions to individuals and companies. </p>
-                <p>Hobbies: personal finance and budgeting, <a href="https://dinaspencer.portfoliobox.io" target="_blank" rel="noreferrer">photography</a>, swing dancing, percussion, singing in choirs, reading, and discovering different parts of Spain.</p>  
+                <p>I'm a strategy and operations consultant with an MBA and a psychology background, specializing in helping organizations grow through data-driven decision-making, process optimization, and high-performing teams. Based in Zaragoza, I work with clients across Europe and the Americas.</p>
+                <p>What makes my approach different is the intersection of <strong>psychology, technology, and business strategy.</strong> I understand how people think, how systems work, and how to bridge the gap between the two. </p>
+                <p>My career has taken me from corporate America to startup operations, from managing remote teams of 50+ to scaling digital marketing initiatives that reached 100,000+ monthly visitors. Along the way, I've led growth strategies, built operational systems, and coached professionals to career advancement. In 2025, I completed my Executive MBA to enhance my strategic toolkit.</p>
+                <p>Today, I'm focused on tackling challenges in digital strategy, operations, business growth, and organizational communication. My clients range from startups and small businesses to established companies in pharma and tech.</p>
+                <p>Originally from North Carolina, I've lived in Spain for over a decade and hold long-term residency as Autónoma. When I'm not solving business problems, you'll find me practicing photography, swing dancing, percussion, and singing.</p>  
             </div>
             <div className="image-half-page">
             <img src="/img/spainmap.png" alt="spain-map" className="background-map"/>
