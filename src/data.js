@@ -2,24 +2,24 @@ export const projects = [
         
   {
             "id": 8,
-            "title": "Targeted Email Marketing",
-            "description": "PharmaBoardroom, a B2B digital publisher focused on the pharmaceutical industry, needed to increase organic traffic to attract new advertisers and establish itself as a leading voice in the pharma sector. My role was to oversee our digital presence and drive measurable growth in both audience reach and engagement. To improve our email engagement, I took a technical and strategic approach: Learned HTML and CSS to enhance email design and ensure mobile responsiveness; improved subject lines to resonate with our audience; segmented our subscriber list based on industry role, geography, and engagement history to deliver more personalized content; analyzed open rates, click-through rates, and unsubscribe patterns to continuously refine our approach.",
-            "skills": "Content Strategy, HTML, CSS, MailChimp, UX Design",
-            "thumbnail": "img/email.png", 
-            "link": "https://dinaspencer.net/china-digest.html",
+            "title": "Marketing Operations: Driving Digital Growth",
+            "description": "PharmaBoardroom, a B2B digital publisher focused on the pharmaceutical industry, needed to increase organic traffic to attract new advertisers and establish itself as a leading voice in the pharma sector. I used Google Analytics to identify that organic search traffic was underperforming industry benchmarks. By developing a targeted SEO strategy focused on high-value pharma keywords, I grew monthly traffic from 70,000-80,000 to over 100,000 visitors in six months—a 30% increase. I also optimized email marketing campaigns (20% improvement) and social media strategy (50% follower growth), establishing PharmaBoardroom as a more credible voice in pharmaceutical media.",
+            "skills": "Google Analytics, SEO, Content Strategy, Social Media Strategy, Email Marketing, MailChimp",
+            "thumbnail": "img/pbr.png", 
+            "link": "https://dinaspencer.net/pdf/DinaSpencer_CaseStudy_Marketing_compressed.pdf",
           },
-          {
+          /* {
             "id": 7,
             "title": "Analytics, Content & SEO",
             "description": "At PharmaBoardroom, I implemented Google Analytics tracking to understand current traffic patterns of the monthly 100,000 visitors. By analyzing user behavior, bounce rates, and referral sources, I identified that our organic search traffic was significantly underperforming compared to industry benchmarks. I also discovered that certain topic areas were generating disproportionate engagement, while others were being ignored. Based on these insights, I researched and wrote articles following a targeted SEO strategy focusing on high-value keywords relevant to pharma industry decision-makers.",
             "skills": "Google Analytics, SEO, Content Strategy, Research, WordPress",
             "thumbnail": "img/pbr.png",
             "link": "https://pharmaboardroom.com/editor/?author_id=21609",
-          },
+          }, */
   {
             "id": 1,
             "title": "Smart Energy AI",
-            "description": "For my MBA final project with UNIR, I developed a product from ideation and strategy to hypothetical launch for GD Energy Services using SWOT, PESTEL and market analysis, positioning and segmentation strategy, financial and operational plans. The product is Smart Energy AI, an AI-based platform that monitors and reduces energy emissions in large industrial plants. The objective was to create a competitive advantage for GDES with a scalable, profitable and innovative solution.",
+            "description": "For my final project in my MBA at UNIR, I developed a product from ideation and strategy to hypothetical launch for GD Energy Services using SWOT, PESTEL and market analysis, positioning and segmentation strategy, financial and operational plans. The product is Smart Energy AI, an AI-based platform that monitors and reduces energy emissions in large industrial plants. The objective was to create a competitive advantage for GDES with a scalable, profitable and innovative solution. This final project won a Special Mention award in sustainability.",
             "skills": "Strategy, Analysis, Communication, Marketing, Financial Planning",
             "thumbnail": "img/mba-thumbnail.png",
             "link": "https://dinaspencer.net/pdf/GDES_PPT_DEFENSA.pdf",
