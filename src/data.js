@@ -8,14 +8,14 @@ export const projects = [
             "thumbnail": "img/pbr.png", 
             "link": "https://dinaspencer.net/pdf/DinaSpencer_CaseStudy_Marketing_compressed.pdf",
           },
-          /* {
+           {
             "id": 7,
-            "title": "Analytics, Content & SEO",
-            "description": "At PharmaBoardroom, I implemented Google Analytics tracking to understand current traffic patterns of the monthly 100,000 visitors. By analyzing user behavior, bounce rates, and referral sources, I identified that our organic search traffic was significantly underperforming compared to industry benchmarks. I also discovered that certain topic areas were generating disproportionate engagement, while others were being ignored. Based on these insights, I researched and wrote articles following a targeted SEO strategy focusing on high-value keywords relevant to pharma industry decision-makers.",
-            "skills": "Google Analytics, SEO, Content Strategy, Research, WordPress",
-            "thumbnail": "img/pbr.png",
-            "link": "https://pharmaboardroom.com/editor/?author_id=21609",
-          }, */
+            "title": "Remote Team Excellence",
+            "description": "Lingo Live was scaling rapidly—the platform grew to over 150 instructors globally. I was one of three community operations managers, and I was responsible for 50+ instructors across EMEA & the Americas. My focus was building the performance management systems, quality assurance frameworks, and engagement strategies for my team, though I also collaborated with the other managers to ensure consistency across the entire platform. We achieved a 96 NPS score and 4.94/5.0 client rating across all 150 instructors, proving that our operational approach worked at scale.",
+            "skills": "Analytics, KPIs, Team Building, Internal Communications, Cross-Functional Collaboration",
+            "thumbnail": "img/TeamOps.jpg",
+            "link": "https://dinaspencer.net/pdf/DinaSpencer_CaseStudy_TeamOps.pdf",
+          }, 
   {
             "id": 1,
             "title": "Smart Energy AI",
