@@ -357,16 +357,16 @@ button, input {
 }
 
 #dev-section p {
-  width: 43%;
+  width: 63%;
   font-size: 120%;
   list-style-type: none;
-  line-height: 0.7;
+  line-height: 0.9;
   padding-top: 12px;
   padding-bottom: 6px;
   margin-left: 32px;
   border-bottom: 3px solid #16063a;
   display: flex;
-  align-items: center;
+  text-align: left!important;
   cursor: pointer;
 }
 
@@ -651,8 +651,10 @@ button, input {
  
   #dev-section p {
     width: 73%;
-    font-size: 130%;
+    font-size: 105%;
     padding-top: 22px;
+    line-height: 105%;
+    
   }
 
   .dev-modal, .services-modal {
@@ -812,8 +814,9 @@ button, input {
   }
     #dev-section p {
     width: 83%;
-    font-size: 130%;
+    font-size: 105%;
     padding-top: 22px;
+    line-height: 105%;
   }
 
   /* .carousel-img {
