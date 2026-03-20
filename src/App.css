@@ -752,7 +752,7 @@ button, input {
  .social-icons li {
   list-style: none;
   display: inline-block;
-  padding: 48px;
+  padding: 18px;
 }
 
 @media only screen and (min-width: 769px) {

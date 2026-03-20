@@ -1,5 +1,5 @@
-import { SiLinkedin } from "react-icons/si";
-// import { SiGithub } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 // import { SiInstagram } from "react-icons/si";
 // import { SiUnsplash } from "react-icons/si";
 // import { useState } from 'react';
@@ -40,9 +40,9 @@ export default function Footer () {
         <div className="social-icons-container">
                 
                 <ul className="social-icons">
-                    <li><a href="https://www.linkedin.com/in/dinakspencer/" target="_blank" rel="noreferrer"><SiLinkedin size={30} style={{opacity: 0.6}} /></a></li>
+                    <li><a href="https://www.linkedin.com/in/dinakspencer/" target="_blank" rel="noreferrer"><FaLinkedin size={30} style={{opacity: 0.9}} /></a></li>
                     {/* <li><a href="https://www.instagram.com/dina.spencer.photo/" target="_blank" rel="noreferrer"><SiInstagram size={30} style={{opacity: 0.6}}/></a></li> */}
-                    {/* <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><SiGithub size={30} style={{opacity: 0.6}}/></a></li> */}
+                    <li><a href="https://github.com/dinaspencer/" target="_blank" rel="noreferrer"><FaGithubSquare size={30} style={{opacity: 0.9}}/></a></li>
                     {/* <li><a href="https://unsplash.com/@dinaspencer" target="_blank" rel="noreferrer"><SiUnsplash size={30} style={{opacity: 0.6}}/></a></li> */}
                     
                     
