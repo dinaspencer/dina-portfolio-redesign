@@ -1,5 +1,12 @@
 export const projects = [
-        
+   {
+            "id": 3,
+            "title": "Leadership Development: Driving Career Advancement in Pharma",
+            "description": " In a global pharmaceutical environment, the primary barrier to growth is organizational silos where insights become trapped within regional marketing teams due to a translation gap in data storytelling. My communication consulting successfully bridged the gap between marketing teams and global executive leadership. I ensured that objectives were met through clear communication and empathetic stakeholder management.",
+            "skills": "Communication Strategy, Executive Presence, Stakeholder Management, Feedback Delivery",
+            "thumbnail": "img/casestudy-comm.png", 
+            "link": "https://dinaspencer.net/pdf/DinaSpencer_CaseStudy_CommLeadership_compressed.pdf",
+          },     
   {
             "id": 8,
             "title": "Marketing Operations: Driving Digital Growth",
