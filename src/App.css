@@ -64,7 +64,7 @@ button, input {
 }
 
 #main {
-  font-size: 120%;
+  /* font-size: 100%; */
   padding: 0px 126px 22px 126px!important;
   /* padding-top: 48px!important; */
   background-color: #16063a;
@@ -79,13 +79,17 @@ button, input {
   font-size: 22px;
 }
 
-.heading {
-  padding-bottom: 36px;
+#main h1 {
+  font-size: 32px;
 }
 
-.strategy-icon {
+/* .heading {
+  padding-bottom: 36px;
+} */
+
+/* .strategy-icon {
   font-size: 58px;
-}
+} */
 
 #services {
   color: #16063a;
@@ -214,26 +218,8 @@ button, input {
     max-height: 96%!important;
   }
 
-  .newsletter-accordion-item {
-    background-color: #8b7aae!important;
-    text-align: left;
-    
-
-  }
 
 
- .newsletter-accordion-main .accordion-button {
-    background-color: #8b7aae!important;
-    /* padding-left: 50px; */
-  }
-
-  .newsletter-accordion-body {
-    padding-bottom: 48px;
-  }
-
-  .newsletter-accordion-body h4 {
-    padding-top: 16px;
-  }
 
 .nl-link {
   text-decoration: none;
@@ -320,7 +306,7 @@ button, input {
 }
 
 
-#cv {
+/* #cv {
   padding: 0px 32px 0px 32px;
   margin-top: 48px;
   color: #16063a;
@@ -341,7 +327,7 @@ button, input {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
 
 #dev-section {
   padding-top: 32px;
@@ -412,7 +398,7 @@ button, input {
 }
 
 #about p {
-  font-size: 15px;
+  font-size: 22px;
   
 
 }

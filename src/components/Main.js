@@ -7,11 +7,12 @@ export default function Main () {
         <>
         <section id="main">
             <div className="container-main">
-            <h1 className="heading">Strategy & Operations Consultant | MBA | Helping Organizations Optimize Operations & Drive Growth</h1>
-                <p>Combining psychology, data analytics, and cross-cultural expertise to solve complex business challenges.</p> 
-                <p>Based in Zaragoza, working with clients globally.</p>
-                {/* <div className="profile-round" style={{backgroundImage:"url(/img/business-photo-square.jpg)",  backgroundSize: "contain"}}></div> */}
-                <h1 className="strategy-icon"><MdAutoGraph /></h1>
+            <h1 className="heading">Growing confidence. Building connections. Investing in community.</h1>
+            <p className="strategy-icon"><MdAutoGraph /></p>
+                <p>Zaragoza, Spain</p> 
+                {/* <p>Based in Zaragoza, working with clients globally.</p> */}
+                <div className="profile-round" style={{backgroundImage:"url(/img/business-photo-bw.jpg)",  backgroundSize: "contain"}}></div>
+                
                 
             </div>
         </section>

@@ -15,10 +15,10 @@ import { useState } from 'react';
 
 
 const content = [
-    {"id": 1, "front": "optimize operations", "back": "so you can scale efficiently and reduce operational friction"},  
-    {"id": 2, "front": "drive digital growth", "back": "so you can increase traffic, conversions, and customer engagement"}, 
-    {"id": 3, "front": "build high-performing teams", "back": "so you can improve retention, productivity, and remote collaboration"}, 
-    {"id": 4, "front": "leverage data for decisions", "back": "so you can move from intuition to insight-driven strategy"},
+    {"id": 1, "front": "deep thinking and analysis", "back": "testing the viability of ideas"},  
+    {"id": 2, "front": "asking tough questions through coaching", "back": "leading to insights and better communication"}, 
+    {"id": 3, "front": "building teams and connections", "back": "improving retention, productivity, and collaboration"}, 
+    {"id": 4, "front": "detailed planning and finance", "back": "making ideas a reality and making sure there's money in the bank"},
       ]
 
       const shuffleCards = content.sort(() => Math.random() - 0.5);
@@ -60,7 +60,7 @@ export default function Services () {
         <>
         <section id="services">
             <div className="container-main">
-        <h3>strategic solutions that drive measurable impact:</h3>
+        <h3>here's what I do best:</h3>
                 
                 <ServicesList circles={circles} />
             
