@@ -432,7 +432,8 @@ button, input {
 
 
 .profile-overlay {
-  margin-top: -220px;
+  margin-top: -740px;
+  margin-left: 160px;
    z-index: 10;
    border-radius: 100%;
   

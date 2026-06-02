@@ -11,7 +11,7 @@ export default function Main () {
             <p className="strategy-icon"><MdAutoGraph /></p>
                 <p>Zaragoza, Spain</p> 
                 {/* <p>Based in Zaragoza, working with clients globally.</p> */}
-                <div className="profile-round" style={{backgroundImage:"url(/img/business-photo-bw.jpg)",  backgroundSize: "contain"}}></div>
+                <div className="profile-round" style={{backgroundImage:"url(/img/pilar-image.jpg)",  backgroundSize: "contain"}}></div>
                 
                 
             </div>

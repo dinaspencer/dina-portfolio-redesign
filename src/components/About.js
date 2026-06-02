@@ -19,7 +19,7 @@ export default function About () {
             </div>
             <div className="image-half-page">
             <img src="/img/spainmap.png" alt="spain-map" className="background-map"/>
-             <img src="/img/profile.jpg" alt="profile" className="profile-overlay" height="180" />
+             <img src="/img/zgz-image.jpg" alt="profile" className="profile-overlay" height="180" />
                 
             </div>
         </section>
